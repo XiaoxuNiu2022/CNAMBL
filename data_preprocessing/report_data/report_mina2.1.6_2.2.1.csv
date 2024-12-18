@@ -1,0 +1,104 @@
+Metrics,Severity,API,Description
+java.method.added,No,org.apache.mina.core.session.AbstractIoSession.isServer:(),Added Methods
+java.method.added,No,org.apache.mina.filter.codec.AbstractProtocolDecoderOutput.flush:(Lorg.apache.mina.core.filterchain.IoFilter$NextFilterLorg.apache.mina.core.session.IoSession),Added Methods
+java.method.added,No,"org.apache.mina.util.BasicThreadFactory.""<init>"":(Ljava.lang.String)",Added Methods
+java.method.added,No,"org.apache.mina.util.BasicThreadFactory.""<init>"":(Ljava.lang.StringZ)",Added Methods
+java.method.added,No,"org.apache.mina.util.BasicThreadFactory.""<init>"":(Ljava.lang.StringZI)",Added Methods
+java.method.added,No,org.apache.mina.util.BasicThreadFactory.newThread:(Ljava.lang.Runnable),Added Methods
+java.method.added,No,org.apache.mina.core.future.CloseFuture.addListener:(Lorg.apache.mina.core.future.IoFutureListener),Added Methods
+java.method.added,No,org.apache.mina.core.future.CloseFuture.await:(),Added Methods
+java.method.added,No,org.apache.mina.core.future.CloseFuture.awaitUninterruptibly:(),Added Methods
+java.method.added,No,org.apache.mina.core.future.CloseFuture.removeListener:(Lorg.apache.mina.core.future.IoFutureListener),Added Methods
+java.method.added,No,org.apache.mina.core.future.ConnectFuture.addListener:(Lorg.apache.mina.core.future.IoFutureListener),Added Methods
+java.method.added,No,org.apache.mina.core.future.ConnectFuture.await:(),Added Methods
+java.method.added,No,org.apache.mina.core.future.ConnectFuture.awaitUninterruptibly:(),Added Methods
+java.method.added,No,org.apache.mina.core.future.ConnectFuture.removeListener:(Lorg.apache.mina.core.future.IoFutureListener),Added Methods
+java.method.added,No,org.apache.mina.transport.socket.DatagramAcceptor.getDefaultLocalAddress:(),Added Methods
+java.method.added,No,org.apache.mina.transport.socket.DatagramAcceptor.getLocalAddress:(),Added Methods
+java.method.added,No,org.apache.mina.transport.socket.DatagramAcceptor.getSessionConfig:(),Added Methods
+java.method.added,No,org.apache.mina.transport.socket.DatagramConnector.getDefaultRemoteAddress:(),Added Methods
+java.method.added,No,org.apache.mina.transport.socket.DatagramConnector.getSessionConfig:(),Added Methods
+java.method.added,No,"org.apache.mina.filter.ssl.EncryptedWriteRequest.""<init>"":(Ljava.lang.ObjectLorg.apache.mina.core.write.WriteRequest)",Added Methods
+java.method.added,No,org.apache.mina.filter.ssl.EncryptedWriteRequest.getOriginalRequest:(),Added Methods
+java.method.added,No,org.apache.mina.core.session.IoSession.isServer:(),Added Methods
+java.method.added,No,org.apache.mina.core.future.ReadFuture.addListener:(Lorg.apache.mina.core.future.IoFutureListener),Added Methods
+java.method.added,No,org.apache.mina.core.future.ReadFuture.await:(),Added Methods
+java.method.added,No,org.apache.mina.core.future.ReadFuture.awaitUninterruptibly:(),Added Methods
+java.method.added,No,org.apache.mina.core.future.ReadFuture.removeListener:(Lorg.apache.mina.core.future.IoFutureListener),Added Methods
+java.method.added,No,org.apache.mina.transport.socket.SocketAcceptor.getDefaultLocalAddress:(),Added Methods
+java.method.added,No,org.apache.mina.transport.socket.SocketAcceptor.getLocalAddress:(),Added Methods
+java.method.added,No,org.apache.mina.transport.socket.SocketAcceptor.getSessionConfig:(),Added Methods
+java.method.added,No,org.apache.mina.transport.socket.SocketConnector.getDefaultRemoteAddress:(),Added Methods
+java.method.added,No,org.apache.mina.transport.socket.SocketConnector.getSessionConfig:(),Added Methods
+java.method.added,No,org.apache.mina.filter.ssl.SslFilter.createEngine:(Lorg.apache.mina.core.session.IoSessionLjava.net.InetSocketAddress),Added Methods
+java.method.added,No,org.apache.mina.filter.ssl.SslFilter.onClose:(Lorg.apache.mina.core.filterchain.IoFilter$NextFilterLorg.apache.mina.core.session.IoSessionZ),Added Methods
+java.method.added,No,org.apache.mina.filter.ssl.SslFilter.onConnected:(Lorg.apache.mina.core.filterchain.IoFilter$NextFilterLorg.apache.mina.core.session.IoSession),Added Methods
+java.method.added,No,org.apache.mina.filter.ssl.SslFilter.sessionOpened:(Lorg.apache.mina.core.filterchain.IoFilter$NextFilterLorg.apache.mina.core.session.IoSession),Added Methods
+java.method.added,No,org.apache.mina.filter.ssl.SslHandler.ack:(Lorg.apache.mina.core.filterchain.IoFilter$NextFilterLorg.apache.mina.core.write.WriteRequest),Added Methods
+java.method.added,No,org.apache.mina.filter.ssl.SslHandler.allocate_app_buffer:(I),Added Methods
+java.method.added,No,org.apache.mina.filter.ssl.SslHandler.allocate_encode_buffer:(I),Added Methods
+java.method.added,No,org.apache.mina.filter.ssl.SslHandler.close:(Lorg.apache.mina.core.filterchain.IoFilter$NextFilterZ),Added Methods
+java.method.added,No,org.apache.mina.filter.ssl.SslHandler.isConnected:(),Added Methods
+java.method.added,No,org.apache.mina.filter.ssl.SslHandler.isOpen:(),Added Methods
+java.method.added,No,org.apache.mina.filter.ssl.SslHandler.open:(Lorg.apache.mina.core.filterchain.IoFilter$NextFilter),Added Methods
+java.method.added,No,org.apache.mina.filter.ssl.SslHandler.receive:(Lorg.apache.mina.core.filterchain.IoFilter$NextFilterLorg.apache.mina.core.buffer.IoBuffer),Added Methods
+java.method.added,No,org.apache.mina.filter.ssl.SslHandler.resume_decode_buffer:(Lorg.apache.mina.core.buffer.IoBuffer),Added Methods
+java.method.added,No,"org.apache.mina.filter.ssl.SslHandler.""<init>"":(Ljavax.net.ssl.SSLEngineLjava.util.concurrent.ExecutorLorg.apache.mina.core.session.IoSession)",Added Methods
+java.method.added,No,org.apache.mina.filter.ssl.SslHandler.suspend_decode_buffer:(Lorg.apache.mina.core.buffer.IoBuffer),Added Methods
+java.method.added,No,org.apache.mina.filter.ssl.SslHandler.write:(Lorg.apache.mina.core.filterchain.IoFilter$NextFilterLorg.apache.mina.core.write.WriteRequest),Added Methods
+java.method.added,No,org.apache.mina.util.StackInspector.callee:(),Added Methods
+java.method.added,No,org.apache.mina.util.StackInspector.get:(),Added Methods
+java.method.added,No,org.apache.mina.util.StackInspector.get:(Ljava.lang.String),Added Methods
+java.method.added,No,org.apache.mina.util.StackInspector.get:(Ljava.lang.Throwable),Added Methods
+java.method.added,No,org.apache.mina.core.future.WriteFuture.addListener:(Lorg.apache.mina.core.future.IoFutureListener),Added Methods
+java.method.added,No,org.apache.mina.core.future.WriteFuture.await:(),Added Methods
+java.method.added,No,org.apache.mina.core.future.WriteFuture.awaitUninterruptibly:(),Added Methods
+java.method.added,No,org.apache.mina.core.future.WriteFuture.removeListener:(Lorg.apache.mina.core.future.IoFutureListener),Added Methods
+java.method.added,No,"org.apache.mina.core.write.WriteRejectedException.""<init>"":(Ljava.util.Collection)",Added Methods
+java.method.added,No,"org.apache.mina.core.write.WriteRejectedException.""<init>"":(Ljava.util.CollectionLjava.lang.String)",Added Methods
+java.method.added,No,"org.apache.mina.core.write.WriteRejectedException.""<init>"":(Lorg.apache.mina.core.write.WriteRequest)",Added Methods
+java.method.added,No,"org.apache.mina.core.write.WriteRejectedException.""<init>"":(Lorg.apache.mina.core.write.WriteRequestLjava.lang.String)",Added Methods
+java.method.removed,High,org.apache.mina.filter.codec.AbstractProtocolDecoderOutput.getMessageQueue:(),Removed Methods
+java.method.removed,High,org.apache.mina.filter.codec.AbstractProtocolEncoderOutput.getMessageQueue:(),Removed Methods
+java.method.removed,High,org.apache.mina.filter.codec.AbstractProtocolEncoderOutput.mergeAll:(),Removed Methods
+java.method.removed,High,org.apache.mina.filter.codec.ProtocolEncoderOutput.flush:(),Removed Methods
+java.method.removed,High,org.apache.mina.filter.codec.ProtocolEncoderOutput.mergeAll:(),Removed Methods
+java.method.removed,High,org.apache.mina.filter.ssl.SslFilter.getSslSession:(Lorg.apache.mina.core.session.IoSession),Removed Methods
+java.method.removed,High,org.apache.mina.filter.ssl.SslFilter.initiateHandshake:(Lorg.apache.mina.core.session.IoSession),Removed Methods
+java.method.removed,High,org.apache.mina.filter.ssl.SslFilter.isSecured:(Lorg.apache.mina.core.session.IoSession),Removed Methods
+java.method.removed,High,org.apache.mina.filter.ssl.SslFilter.isSslStarted:(Lorg.apache.mina.core.session.IoSession),Removed Methods
+java.method.removed,High,org.apache.mina.filter.ssl.SslFilter.isUseClientMode:(),Removed Methods
+java.method.removed,High,org.apache.mina.filter.ssl.SslFilter.setUseClientMode:(Z),Removed Methods
+java.method.removed,High,"org.apache.mina.filter.ssl.SslFilter.""<init>"":(Ljavax.net.ssl.SSLContextZ)",Removed Methods
+java.method.removed,High,org.apache.mina.filter.ssl.SslFilter.startSsl:(Lorg.apache.mina.core.session.IoSession),Removed Methods
+java.method.removed,High,org.apache.mina.filter.ssl.SslFilter.stopSsl:(Lorg.apache.mina.core.session.IoSession),Removed Methods
+java.interface.abstractMethodRemoved,High,org.apache.mina.filter.codec.ProtocolEncoderOutput,Abstract method WriteFuture flush() has been removed from this interface.
+java.interface.abstractMethodRemoved,High,org.apache.mina.filter.codec.ProtocolEncoderOutput,Abstract method void mergeAll() has been removed from this interface.
+java.class.fieldAdded,Low,org.apache.mina.filter.ssl.SslFilter,Field EXECUTOR has been added to this class.
+java.class.fieldAdded,Low,org.apache.mina.filter.ssl.SslFilter,Field SSL_SECURED has been added to this class.
+java.method.parameterTypeParameterChanged,Medium,org.apache.mina.filter.ssl.SslFilter.setEnabledCipherSuites,Type of parameter cipherSuites has been changed from java.lang.String[] to java.lang.String....
+java.method.parameterTypeParameterChanged,Medium,org.apache.mina.filter.ssl.SslFilter.setEnabledProtocols,Type of parameter protocols has been changed from java.lang.String[] to java.lang.String....
+java.class.removed,High,org.apache.mina.filter.ssl.SslFilter.SslFilterMessage,Class was removed.
+java.field.removed,High,org.apache.mina.filter.ssl.SslFilter.DISABLE_ENCRYPTION_ONCE,Field removed from class.
+java.field.removed,High,org.apache.mina.filter.ssl.SslFilter.PEER_ADDRESS,Field removed from class.
+java.field.removed,High,org.apache.mina.filter.ssl.SslFilter.SSL_SESSION,Field removed from class.
+java.field.removed,High,org.apache.mina.filter.ssl.SslFilter.USE_NOTIFICATION,Field removed from class.
+java.field.removedWithConstant,High,org.apache.mina.filter.ssl.SslFilter.CLIENT_HANDSHAKE,Field with constant value has been removed.
+java.field.removedWithConstant,High,org.apache.mina.filter.ssl.SslFilter.START_HANDSHAKE,Field with constant value has been removed.
+java.method.addedToInterface,High,org.apache.mina.core.session.IoSession::isServer(),Method was added to an interface.
+java.method.exception.checkedAdded,High,"org.apache.mina.filter.ssl.SslFilter::filterClose(org.apache.mina.core.filterchain.IoFilter.NextFilter, org.apache.mina.core.session.IoSession) throws javax.net.ssl.SSLException",Method newly throws checked exceptions: java.lang.Exception.
+java.method.exception.checkedAdded,High,"org.apache.mina.filter.ssl.SslFilter::filterWrite(org.apache.mina.core.filterchain.IoFilter.NextFilter, org.apache.mina.core.session.IoSession, org.apache.mina.core.write.WriteRequest) throws javax.net.ssl.SSLException",Method newly throws checked exceptions: java.lang.Exception.
+java.method.exception.checkedAdded,High,"org.apache.mina.filter.ssl.SslFilter::messageReceived(org.apache.mina.core.filterchain.IoFilter.NextFilter, org.apache.mina.core.session.IoSession, java.lang.Object) throws javax.net.ssl.SSLException",Method newly throws checked exceptions: java.lang.Exception.
+java.method.exception.checkedAdded,High,"org.apache.mina.filter.ssl.SslFilter::messageSent(org.apache.mina.core.filterchain.IoFilter.NextFilter, org.apache.mina.core.session.IoSession, org.apache.mina.core.write.WriteRequest)",Method newly throws checked exceptions: java.lang.Exception.
+java.method.exception.checkedAdded,High,"org.apache.mina.filter.ssl.SslFilter::onPostAdd(org.apache.mina.core.filterchain.IoFilterChain, java.lang.String, org.apache.mina.core.filterchain.IoFilter.NextFilter) throws javax.net.ssl.SSLException",Method newly throws checked exceptions: java.lang.Exception.
+java.method.exception.checkedAdded,High,"org.apache.mina.filter.ssl.SslFilter::onPreAdd(org.apache.mina.core.filterchain.IoFilterChain, java.lang.String, org.apache.mina.core.filterchain.IoFilter.NextFilter) throws javax.net.ssl.SSLException",Method newly throws checked exceptions: java.lang.Exception.
+java.method.exception.checkedAdded,High,"org.apache.mina.filter.ssl.SslFilter::onPreRemove(org.apache.mina.core.filterchain.IoFilterChain, java.lang.String, org.apache.mina.core.filterchain.IoFilter.NextFilter) throws javax.net.ssl.SSLException",Method newly throws checked exceptions: java.lang.Exception.
+java.method.exception.checkedAdded,High,"org.apache.mina.filter.ssl.SslFilter::sessionClosed(org.apache.mina.core.filterchain.IoFilter.NextFilter, org.apache.mina.core.session.IoSession) throws javax.net.ssl.SSLException",Method newly throws checked exceptions: java.lang.Exception.
+java.method.exception.checkedRemoved,Medium,"org.apache.mina.filter.ssl.SslFilter::filterClose(org.apache.mina.core.filterchain.IoFilter.NextFilter, org.apache.mina.core.session.IoSession) throws javax.net.ssl.SSLException",Method no longer throws checked exceptions: javax.net.ssl.SSLException.
+java.method.exception.checkedRemoved,Medium,"org.apache.mina.filter.ssl.SslFilter::filterWrite(org.apache.mina.core.filterchain.IoFilter.NextFilter, org.apache.mina.core.session.IoSession, org.apache.mina.core.write.WriteRequest) throws javax.net.ssl.SSLException",Method no longer throws checked exceptions: javax.net.ssl.SSLException.
+java.method.exception.checkedRemoved,Medium,"org.apache.mina.filter.ssl.SslFilter::messageReceived(org.apache.mina.core.filterchain.IoFilter.NextFilter, org.apache.mina.core.session.IoSession, java.lang.Object) throws javax.net.ssl.SSLException",Method no longer throws checked exceptions: javax.net.ssl.SSLException.
+java.method.exception.checkedRemoved,Medium,"org.apache.mina.filter.ssl.SslFilter::onPostAdd(org.apache.mina.core.filterchain.IoFilterChain, java.lang.String, org.apache.mina.core.filterchain.IoFilter.NextFilter) throws javax.net.ssl.SSLException",Method no longer throws checked exceptions: javax.net.ssl.SSLException.
+java.method.exception.checkedRemoved,Medium,"org.apache.mina.filter.ssl.SslFilter::onPreAdd(org.apache.mina.core.filterchain.IoFilterChain, java.lang.String, org.apache.mina.core.filterchain.IoFilter.NextFilter) throws javax.net.ssl.SSLException",Method no longer throws checked exceptions: javax.net.ssl.SSLException.
+java.method.exception.checkedRemoved,Medium,"org.apache.mina.filter.ssl.SslFilter::onPreRemove(org.apache.mina.core.filterchain.IoFilterChain, java.lang.String, org.apache.mina.core.filterchain.IoFilter.NextFilter) throws javax.net.ssl.SSLException",Method no longer throws checked exceptions: javax.net.ssl.SSLException.
+java.method.exception.checkedRemoved,Medium,"org.apache.mina.filter.ssl.SslFilter::sessionClosed(org.apache.mina.core.filterchain.IoFilter.NextFilter, org.apache.mina.core.session.IoSession) throws javax.net.ssl.SSLException",Method no longer throws checked exceptions: javax.net.ssl.SSLException.
+java.class.nonPublicPartOfAPI,High,org.apache.mina.filter.codec.demux.DemuxingProtocolEncoder.State,Class 'org.apache.mina.filter.codec.demux.DemuxingProtocolEncoder.State' is indirectly included in the API (by the means of method return type for example) but the class is not accessible (neither public nor protected).

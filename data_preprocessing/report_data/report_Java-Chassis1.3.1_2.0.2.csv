@@ -1,0 +1,472 @@
+Metrics,Severity,API,Description
+java.method.added,No,org.apache.servicecomb.core.SCBEngine.AfterRegistryEventHanlder.afterRegistryInstance:(Lorg.apache.servicecomb.serviceregistry.task.MicroserviceInstanceRegisterTask),Added Methods
+java.method.added,No,"org.apache.servicecomb.core.SCBEngine.AfterRegistryEventHanlder.""<init>"":(Lorg.apache.servicecomb.core.SCBEngine)",Added Methods
+java.method.added,No,org.apache.servicecomb.core.BootListener.onAfterClose:(Lorg.apache.servicecomb.core.BootListener$BootEvent),Added Methods
+java.method.added,No,org.apache.servicecomb.core.BootListener.onAfterConsumerProvider:(Lorg.apache.servicecomb.core.BootListener$BootEvent),Added Methods
+java.method.added,No,org.apache.servicecomb.core.BootListener.onAfterHandler:(Lorg.apache.servicecomb.core.BootListener$BootEvent),Added Methods
+java.method.added,No,org.apache.servicecomb.core.BootListener.onAfterProducerProvider:(Lorg.apache.servicecomb.core.BootListener$BootEvent),Added Methods
+java.method.added,No,org.apache.servicecomb.core.BootListener.onAfterRegistry:(Lorg.apache.servicecomb.core.BootListener$BootEvent),Added Methods
+java.method.added,No,org.apache.servicecomb.core.BootListener.onAfterTransport:(Lorg.apache.servicecomb.core.BootListener$BootEvent),Added Methods
+java.method.added,No,org.apache.servicecomb.core.BootListener.onBeforeClose:(Lorg.apache.servicecomb.core.BootListener$BootEvent),Added Methods
+java.method.added,No,org.apache.servicecomb.core.BootListener.onBeforeConsumerProvider:(Lorg.apache.servicecomb.core.BootListener$BootEvent),Added Methods
+java.method.added,No,org.apache.servicecomb.core.BootListener.onBeforeHandler:(Lorg.apache.servicecomb.core.BootListener$BootEvent),Added Methods
+java.method.added,No,org.apache.servicecomb.core.BootListener.onBeforeProducerProvider:(Lorg.apache.servicecomb.core.BootListener$BootEvent),Added Methods
+java.method.added,No,org.apache.servicecomb.core.BootListener.onBeforeRegistry:(Lorg.apache.servicecomb.core.BootListener$BootEvent),Added Methods
+java.method.added,No,org.apache.servicecomb.core.BootListener.onBeforeTransport:(Lorg.apache.servicecomb.core.BootListener$BootEvent),Added Methods
+java.method.added,No,"org.apache.servicecomb.core.ConfigurationSpringInitializer.""<init>"":()",Added Methods
+java.method.added,No,org.apache.servicecomb.core.ConfigurationSpringInitializer.mergeProperties:(),Added Methods
+java.method.added,No,org.apache.servicecomb.core.ConfigurationSpringInitializer.resolvePlaceholder:(Ljava.lang.StringLjava.util.Properties),Added Methods
+java.method.added,No,org.apache.servicecomb.core.ConfigurationSpringInitializer.setEnvironment:(Lorg.springframework.core.env.Environment),Added Methods
+java.method.added,No,"org.apache.servicecomb.core.definition.ConsumerMicroserviceVersionsMeta.""<init>"":(Lorg.apache.servicecomb.core.SCBEngineLorg.apache.servicecomb.serviceregistry.consumer.MicroserviceVersions)",Added Methods
+java.method.added,No,org.apache.servicecomb.core.definition.ConsumerMicroserviceVersionsMeta.getMicroserviceVersions:(),Added Methods
+java.method.added,No,org.apache.servicecomb.core.definition.ConsumerMicroserviceVersionsMeta.getOrCreateMicroserviceReferenceConfig:(),Added Methods
+java.method.added,No,org.apache.servicecomb.core.provider.consumer.ConsumerProviderManager.getConsumerProviderList:(),Added Methods
+java.method.added,No,org.apache.servicecomb.core.definition.CoreMetaUtils.getMicroserviceMeta:(Lorg.apache.servicecomb.serviceregistry.consumer.MicroserviceVersion),Added Methods
+java.method.added,No,org.apache.servicecomb.core.definition.CoreMetaUtils.getMicroserviceVersion:(Lorg.apache.servicecomb.core.definition.MicroserviceMeta),Added Methods
+java.method.added,No,org.apache.servicecomb.core.definition.CoreMetaUtils.getMicroserviceVersions:(Lorg.apache.servicecomb.core.Invocation),Added Methods
+java.method.added,No,org.apache.servicecomb.core.definition.CoreMetaUtils.getMicroserviceVersions:(Lorg.apache.servicecomb.core.definition.MicroserviceMeta),Added Methods
+java.method.added,No,org.apache.servicecomb.core.definition.CoreMetaUtils.getMicroserviceVersionsMeta:(Lorg.apache.servicecomb.serviceregistry.consumer.MicroserviceVersions),Added Methods
+java.method.added,No,org.apache.servicecomb.core.definition.CoreMetaUtils.getSwaggerProducer:(Lorg.apache.servicecomb.core.definition.SchemaMeta),Added Methods
+java.method.added,No,"org.apache.servicecomb.core.Endpoint.""<init>"":(Lorg.apache.servicecomb.core.TransportLjava.lang.StringLorg.apache.servicecomb.serviceregistry.api.registry.MicroserviceInstanceLjava.lang.Object)",Added Methods
+java.method.added,No,org.apache.servicecomb.core.executor.ExecutorManager.findExecutorById:(Ljava.lang.String),Added Methods
+java.method.added,No,org.apache.servicecomb.core.executor.ExecutorManager.registerExecutor:(Ljava.lang.StringLjava.util.concurrent.Executor),Added Methods
+java.method.added,No,org.apache.servicecomb.core.executor.GroupExecutor.init:(Ljava.lang.String),Added Methods
+java.method.added,No,"org.apache.servicecomb.core.executor.GroupThreadFactory.""<init>"":(Ljava.lang.String)",Added Methods
+java.method.added,No,org.apache.servicecomb.core.executor.GroupThreadFactory.newThread:(Ljava.lang.Runnable),Added Methods
+java.method.added,No,org.apache.servicecomb.core.handler.HandlerConfigUtils.init:(Lorg.apache.servicecomb.core.handler.ConsumerHandlerManagerLorg.apache.servicecomb.core.handler.ProducerHandlerManager),Added Methods
+java.method.added,No,org.apache.servicecomb.core.exception.IllegalArgumentExceptionToProducerResponseConverter.convert:(Lorg.apache.servicecomb.swagger.invocation.SwaggerInvocationLjava.lang.Throwable),Added Methods
+java.method.added,No,org.apache.servicecomb.core.exception.IllegalArgumentExceptionToProducerResponseConverter.convert:(Lorg.apache.servicecomb.swagger.invocation.SwaggerInvocationLjava.lang.IllegalArgumentException),Added Methods
+java.method.added,No,org.apache.servicecomb.core.exception.IllegalArgumentExceptionToProducerResponseConverter.getExceptionClass:(),Added Methods
+java.method.added,No,org.apache.servicecomb.core.exception.IllegalArgumentExceptionToProducerResponseConverter.getOrder:(),Added Methods
+java.method.added,No,"org.apache.servicecomb.core.exception.IllegalArgumentExceptionToProducerResponseConverter.""<init>"":()",Added Methods
+java.method.added,No,org.apache.servicecomb.core.Invocation.findResponseType:(I),Added Methods
+java.method.added,No,org.apache.servicecomb.core.Invocation.getInvocationArgument:(Ljava.lang.String),Added Methods
+java.method.added,No,org.apache.servicecomb.core.Invocation.getInvocationArguments:(),Added Methods
+java.method.added,No,org.apache.servicecomb.core.Invocation.getInvocationRuntimeType:(),Added Methods
+java.method.added,No,org.apache.servicecomb.core.Invocation.getMicroserviceMeta:(),Added Methods
+java.method.added,No,org.apache.servicecomb.core.Invocation.getSwaggerArgument:(Ljava.lang.String),Added Methods
+java.method.added,No,org.apache.servicecomb.core.Invocation.getSwaggerArguments:(),Added Methods
+java.method.added,No,org.apache.servicecomb.core.Invocation.getTraceIdLogger:(),Added Methods
+java.method.added,No,"org.apache.servicecomb.core.Invocation.""<init>"":(Lorg.apache.servicecomb.core.EndpointLorg.apache.servicecomb.core.definition.OperationMetaLjava.util.Map)",Added Methods
+java.method.added,No,"org.apache.servicecomb.core.Invocation.""<init>"":(Lorg.apache.servicecomb.core.provider.consumer.ReferenceConfigLorg.apache.servicecomb.core.definition.OperationMetaLorg.apache.servicecomb.core.definition.InvocationRuntimeTypeLjava.util.Map)",Added Methods
+java.method.added,No,org.apache.servicecomb.core.Invocation.setInvocationArguments:(Ljava.util.Map),Added Methods
+java.method.added,No,org.apache.servicecomb.core.Invocation.setSuccessResponseType:(Lcom.fasterxml.jackson.databind.JavaType),Added Methods
+java.method.added,No,org.apache.servicecomb.core.Invocation.setSwaggerArguments:(Ljava.util.Map),Added Methods
+java.method.added,No,org.apache.servicecomb.core.Invocation.toProducerArguments:(),Added Methods
+java.method.added,No,org.apache.servicecomb.core.invocation.InvocationFactory.forConsumer:(Lorg.apache.servicecomb.core.provider.consumer.ReferenceConfigLorg.apache.servicecomb.core.definition.OperationMetaLorg.apache.servicecomb.core.definition.InvocationRuntimeTypeLjava.util.Map),Added Methods
+java.method.added,No,org.apache.servicecomb.core.invocation.InvocationFactory.forProvider:(Lorg.apache.servicecomb.core.EndpointLorg.apache.servicecomb.core.definition.OperationMetaLjava.util.Map),Added Methods
+java.method.added,No,org.apache.servicecomb.core.definition.InvocationRuntimeType.findResponseType:(I),Added Methods
+java.method.added,No,org.apache.servicecomb.core.definition.InvocationRuntimeType.getArgumentsMapper:(),Added Methods
+java.method.added,No,org.apache.servicecomb.core.definition.InvocationRuntimeType.getAssociatedClass:(),Added Methods
+java.method.added,No,org.apache.servicecomb.core.definition.InvocationRuntimeType.getAssociatedMethod:(),Added Methods
+java.method.added,No,"org.apache.servicecomb.core.definition.InvocationRuntimeType.""<init>"":(Ljava.lang.ClassLjava.lang.reflect.MethodLorg.apache.servicecomb.swagger.invocation.response.ResponsesMetaLorg.apache.servicecomb.swagger.invocation.arguments.ArgumentsMapper)",Added Methods
+java.method.added,No,"org.apache.servicecomb.core.definition.InvocationRuntimeType.""<init>"":(Lorg.apache.servicecomb.swagger.invocation.response.ResponsesMeta)",Added Methods
+java.method.added,No,org.apache.servicecomb.core.definition.InvocationRuntimeType.isRawConsumer:(),Added Methods
+java.method.added,No,org.apache.servicecomb.core.definition.InvocationRuntimeType.setArgumentsMapper:(Lorg.apache.servicecomb.swagger.invocation.arguments.ArgumentsMapper),Added Methods
+java.method.added,No,org.apache.servicecomb.core.definition.InvocationRuntimeType.setAssociatedClass:(Ljava.lang.Class),Added Methods
+java.method.added,No,org.apache.servicecomb.core.definition.InvocationRuntimeType.setAssociatedMethod:(Ljava.lang.reflect.Method),Added Methods
+java.method.added,No,org.apache.servicecomb.core.definition.InvocationRuntimeType.setSuccessResponseType:(Lcom.fasterxml.jackson.databind.JavaType),Added Methods
+java.method.added,No,org.apache.servicecomb.core.definition.InvocationRuntimeType.setSuccessResponseType:(Ljava.lang.reflect.Type),Added Methods
+java.method.added,No,org.apache.servicecomb.core.invocation.InvocationStageTrace.getStartCurrentTime:(),Added Methods
+java.method.added,No,org.apache.servicecomb.core.invocation.InvocationStageTrace.setStartCurrentTime:(J),Added Methods
+java.method.added,No,org.apache.servicecomb.core.provider.consumer.InvokerUtils.reactiveInvoke:(Ljava.lang.StringLjava.lang.StringLjava.lang.StringLjava.lang.StringLjava.lang.StringLjava.util.MapLjava.lang.reflect.TypeLorg.apache.servicecomb.swagger.invocation.AsyncResponse),Added Methods
+java.method.added,No,org.apache.servicecomb.core.provider.consumer.InvokerUtils.reactiveInvoke:(Ljava.lang.StringLjava.lang.StringLjava.lang.StringLjava.util.MapLjava.lang.reflect.TypeLorg.apache.servicecomb.swagger.invocation.AsyncResponse),Added Methods
+java.method.added,No,org.apache.servicecomb.core.provider.consumer.InvokerUtils.syncInvoke:(Ljava.lang.StringLjava.lang.StringLjava.lang.StringLjava.lang.StringLjava.lang.StringLjava.util.Map),Added Methods
+java.method.added,No,org.apache.servicecomb.core.provider.consumer.InvokerUtils.syncInvoke:(Ljava.lang.StringLjava.lang.StringLjava.lang.StringLjava.lang.StringLjava.lang.StringLjava.util.MapLjava.lang.reflect.Type),Added Methods
+java.method.added,No,org.apache.servicecomb.core.provider.consumer.InvokerUtils.syncInvoke:(Ljava.lang.StringLjava.lang.StringLjava.lang.StringLjava.util.Map),Added Methods
+java.method.added,No,org.apache.servicecomb.core.provider.consumer.InvokerUtils.syncInvoke:(Ljava.lang.StringLjava.lang.StringLjava.lang.StringLjava.util.MapLjava.lang.reflect.Type),Added Methods
+java.method.added,No,org.apache.servicecomb.core.definition.MicroserviceConfig.getVersionRule:(),Added Methods
+java.method.added,No,"org.apache.servicecomb.core.definition.MicroserviceConfig.""<init>"":()",Added Methods
+java.method.added,No,org.apache.servicecomb.core.definition.MicroserviceConfig.setVersionRule:(Ljava.lang.String),Added Methods
+java.method.added,No,org.apache.servicecomb.core.definition.MicroserviceMeta.consumer:(Z),Added Methods
+java.method.added,No,org.apache.servicecomb.core.definition.MicroserviceMeta.getConsumerHandlerChain:(),Added Methods
+java.method.added,No,org.apache.servicecomb.core.definition.MicroserviceMeta.getMicroserviceConfig:(),Added Methods
+java.method.added,No,org.apache.servicecomb.core.definition.MicroserviceMeta.getMicroserviceName:(),Added Methods
+java.method.added,No,org.apache.servicecomb.core.definition.MicroserviceMeta.getMicroserviceVersionsMeta:(),Added Methods
+java.method.added,No,org.apache.servicecomb.core.definition.MicroserviceMeta.getOperations:(),Added Methods
+java.method.added,No,org.apache.servicecomb.core.definition.MicroserviceMeta.getProviderHandlerChain:(),Added Methods
+java.method.added,No,org.apache.servicecomb.core.definition.MicroserviceMeta.getProviderQpsFlowControlHandler:(),Added Methods
+java.method.added,No,org.apache.servicecomb.core.definition.MicroserviceMeta.getScbEngine:(),Added Methods
+java.method.added,No,org.apache.servicecomb.core.definition.MicroserviceMeta.getSchemaMetas:(),Added Methods
+java.method.added,No,"org.apache.servicecomb.core.definition.MicroserviceMeta.""<init>"":(Lorg.apache.servicecomb.core.SCBEngineLjava.lang.StringLjava.util.ListLjava.util.List)",Added Methods
+java.method.added,No,org.apache.servicecomb.core.definition.MicroserviceMeta.operationMetas:(),Added Methods
+java.method.added,No,org.apache.servicecomb.core.definition.MicroserviceMeta.registerSchemaMeta:(Ljava.lang.StringLio.swagger.models.Swagger),Added Methods
+java.method.added,No,org.apache.servicecomb.core.definition.MicroserviceMeta.setConsumer:(Z),Added Methods
+java.method.added,No,org.apache.servicecomb.core.definition.MicroserviceMeta.setMicroserviceVersionsMeta:(Lorg.apache.servicecomb.core.definition.MicroserviceVersionsMeta),Added Methods
+java.method.added,No,org.apache.servicecomb.core.provider.consumer.MicroserviceReferenceConfig.createReferenceConfig:(Lorg.apache.servicecomb.core.definition.OperationMeta),Added Methods
+java.method.added,No,org.apache.servicecomb.core.provider.consumer.MicroserviceReferenceConfig.createReferenceConfig:(Ljava.lang.StringLorg.apache.servicecomb.core.definition.OperationMeta),Added Methods
+java.method.added,No,org.apache.servicecomb.core.provider.consumer.MicroserviceReferenceConfig.getLatestMicroserviceMeta:(),Added Methods
+java.method.added,No,org.apache.servicecomb.core.provider.consumer.MicroserviceReferenceConfig.isExpired:(),Added Methods
+java.method.added,No,"org.apache.servicecomb.core.provider.consumer.MicroserviceReferenceConfig.""<init>"":(Lorg.apache.servicecomb.core.definition.ConsumerMicroserviceVersionsMetaLjava.lang.String)",Added Methods
+java.method.added,No,org.apache.servicecomb.core.definition.MicroserviceVersionsMeta.destroy:(),Added Methods
+java.method.added,No,org.apache.servicecomb.core.definition.MicroserviceVersionsMeta.getMicroserviceConfig:(),Added Methods
+java.method.added,No,org.apache.servicecomb.core.definition.MicroserviceVersionsMeta.getOrCreateOperationConfig:(Lorg.apache.servicecomb.core.definition.OperationMeta),Added Methods
+java.method.added,No,"org.apache.servicecomb.core.definition.MicroserviceVersionsMeta.""<init>"":(Lorg.apache.servicecomb.core.SCBEngineLjava.lang.String)",Added Methods
+java.method.added,No,org.apache.servicecomb.core.definition.OperationConfig.getTransport:(),Added Methods
+java.method.added,No,org.apache.servicecomb.core.definition.OperationConfig.setTransport:(Ljava.lang.String),Added Methods
+java.method.added,No,org.apache.servicecomb.core.definition.OperationMeta.buildBaseConsumerRuntimeType:(),Added Methods
+java.method.added,No,org.apache.servicecomb.core.definition.OperationMeta.buildBaseProviderRuntimeType:(),Added Methods
+java.method.added,No,org.apache.servicecomb.core.definition.OperationMeta.getResponsesMeta:(),Added Methods
+java.method.added,No,org.apache.servicecomb.core.definition.OperationMeta.getSchemaId:(),Added Methods
+java.method.added,No,org.apache.servicecomb.core.definition.OperationMeta.getSwaggerProducerOperation:(),Added Methods
+java.method.added,No,org.apache.servicecomb.core.definition.OperationMeta.init:(Lorg.apache.servicecomb.core.definition.SchemaMetaLorg.apache.servicecomb.swagger.generator.core.model.SwaggerOperation),Added Methods
+java.method.added,No,org.apache.servicecomb.core.definition.OperationMeta.setSwaggerProducerOperation:(Lorg.apache.servicecomb.swagger.engine.SwaggerProducerOperation),Added Methods
+java.method.added,No,org.apache.servicecomb.core.provider.producer.ProducerBootListener.onAfterClose:(Lorg.apache.servicecomb.core.BootListener$BootEvent),Added Methods
+java.method.added,No,org.apache.servicecomb.core.provider.producer.ProducerBootListener.onAfterTransport:(Lorg.apache.servicecomb.core.BootListener$BootEvent),Added Methods
+java.method.added,No,"org.apache.servicecomb.core.provider.producer.ProducerBootListener.""<init>"":()",Added Methods
+java.method.added,No,"org.apache.servicecomb.core.provider.producer.ProducerMeta.""<init>"":(Ljava.lang.StringLjava.lang.Object)",Added Methods
+java.method.added,No,org.apache.servicecomb.core.provider.producer.ProducerProviderManager.addProducerMeta:(Lorg.apache.servicecomb.core.provider.producer.ProducerMeta),Added Methods
+java.method.added,No,org.apache.servicecomb.core.provider.producer.ProducerProviderManager.addProducerMeta:(Ljava.lang.StringLjava.lang.Object),Added Methods
+java.method.added,No,org.apache.servicecomb.core.provider.producer.ProducerProviderManager.getProducerProviderList:(),Added Methods
+java.method.added,No,"org.apache.servicecomb.core.provider.producer.ProducerProviderManager.""<init>"":(Lorg.apache.servicecomb.core.SCBEngine)",Added Methods
+java.method.added,No,org.apache.servicecomb.core.provider.producer.ProducerProviderManager.registerSchema:(Ljava.lang.StringLjava.lang.Object),Added Methods
+java.method.added,No,org.apache.servicecomb.core.provider.consumer.ReferenceConfig.isThirdPartyService:(),Added Methods
+java.method.added,No,"org.apache.servicecomb.core.provider.consumer.ReferenceConfig.""<init>"":(Ljava.lang.StringLjava.lang.String)",Added Methods
+java.method.added,No,org.apache.servicecomb.core.provider.consumer.ReferenceConfig.setThirdPartyService:(Z),Added Methods
+java.method.added,No,org.apache.servicecomb.core.bootstrap.SCBBootstrap.createSCBEngine:(),Added Methods
+java.method.added,No,org.apache.servicecomb.core.bootstrap.SCBBootstrap.createSCBEngineForTest:(),Added Methods
+java.method.added,No,org.apache.servicecomb.core.bootstrap.SCBBootstrap.runWithSpring:(),Added Methods
+java.method.added,No,"org.apache.servicecomb.core.bootstrap.SCBBootstrap.""<init>"":()",Added Methods
+java.method.added,No,org.apache.servicecomb.core.bootstrap.SCBBootstrap.useLocalRegistry:(),Added Methods
+java.method.added,No,org.apache.servicecomb.core.bootstrap.SCBBootstrap.useLocalRegistry:(Ljava.lang.String),Added Methods
+java.method.added,No,org.apache.servicecomb.core.SCBEngine.addBootListeners:(Ljava.util.Collection),Added Methods
+java.method.added,No,org.apache.servicecomb.core.SCBEngine.addProducerMeta:(Ljava.lang.StringLjava.lang.Object),Added Methods
+java.method.added,No,org.apache.servicecomb.core.SCBEngine.createMicroserviceReferenceConfig:(Ljava.lang.String),Added Methods
+java.method.added,No,org.apache.servicecomb.core.SCBEngine.createMicroserviceReferenceConfig:(Ljava.lang.StringLjava.lang.String),Added Methods
+java.method.added,No,org.apache.servicecomb.core.SCBEngine.destroyForShutdownHook:(),Added Methods
+java.method.added,No,org.apache.servicecomb.core.SCBEngine.getAppId:(),Added Methods
+java.method.added,No,org.apache.servicecomb.core.SCBEngine.getBootListeners:(),Added Methods
+java.method.added,No,org.apache.servicecomb.core.SCBEngine.getConsumerHandlerManager:(),Added Methods
+java.method.added,No,org.apache.servicecomb.core.SCBEngine.getConsumerProviderManager:(),Added Methods
+java.method.added,No,org.apache.servicecomb.core.SCBEngine.getExecutorManager:(),Added Methods
+java.method.added,No,org.apache.servicecomb.core.SCBEngine.getProducerHandlerManager:(),Added Methods
+java.method.added,No,org.apache.servicecomb.core.SCBEngine.getProducerProviderManager:(),Added Methods
+java.method.added,No,org.apache.servicecomb.core.SCBEngine.getServiceRegistry:(),Added Methods
+java.method.added,No,org.apache.servicecomb.core.SCBEngine.getSwaggerEnvironment:(),Added Methods
+java.method.added,No,org.apache.servicecomb.core.SCBEngine.getSwaggerLoader:(),Added Methods
+java.method.added,No,org.apache.servicecomb.core.SCBEngine.getVendorExtensions:(),Added Methods
+java.method.added,No,org.apache.servicecomb.core.SCBEngine.parseAppId:(Ljava.lang.String),Added Methods
+java.method.added,No,org.apache.servicecomb.core.SCBEngine.parseMicroserviceName:(Ljava.lang.String),Added Methods
+java.method.added,No,org.apache.servicecomb.core.SCBEngine.run:(),Added Methods
+java.method.added,No,org.apache.servicecomb.core.SCBEngine.setExecutorManager:(Lorg.apache.servicecomb.core.executor.ExecutorManager),Added Methods
+java.method.added,No,org.apache.servicecomb.core.bootstrap.SCBEngineForTest.destroy:(),Added Methods
+java.method.added,No,"org.apache.servicecomb.core.bootstrap.SCBEngineForTest.""<init>"":()",Added Methods
+java.method.added,No,"org.apache.servicecomb.core.tracing.ScbMarker.""<init>"":()",Added Methods
+java.method.added,No,org.apache.servicecomb.core.definition.SchemaMeta.ensureFindOperation:(Ljava.lang.String),Added Methods
+java.method.added,No,org.apache.servicecomb.core.definition.SchemaMeta.findOperation:(Ljava.lang.String),Added Methods
+java.method.added,No,org.apache.servicecomb.core.definition.SchemaMeta.getAppId:(),Added Methods
+java.method.added,No,org.apache.servicecomb.core.definition.SchemaMeta.getExtData:(Ljava.lang.String),Added Methods
+java.method.added,No,org.apache.servicecomb.core.definition.SchemaMeta.getOperations:(),Added Methods
+java.method.added,No,org.apache.servicecomb.core.definition.SchemaMeta.putExtData:(Ljava.lang.StringLjava.lang.Object),Added Methods
+java.method.added,No,"org.apache.servicecomb.core.definition.SchemaMeta.""<init>"":(Lorg.apache.servicecomb.core.definition.MicroserviceMetaLjava.lang.StringLio.swagger.models.Swagger)",Added Methods
+java.method.added,No,org.apache.servicecomb.core.event.ServerAccessLogEvent.getLocalAddress:(),Added Methods
+java.method.added,No,org.apache.servicecomb.core.event.ServerAccessLogEvent.getMilliEndTime:(),Added Methods
+java.method.added,No,org.apache.servicecomb.core.event.ServerAccessLogEvent.getMilliStartTime:(),Added Methods
+java.method.added,No,org.apache.servicecomb.core.event.ServerAccessLogEvent.getRoutingContext:(),Added Methods
+java.method.added,No,"org.apache.servicecomb.core.event.ServerAccessLogEvent.""<init>"":()",Added Methods
+java.method.added,No,org.apache.servicecomb.core.event.ServerAccessLogEvent.setLocalAddress:(Ljava.lang.String),Added Methods
+java.method.added,No,org.apache.servicecomb.core.event.ServerAccessLogEvent.setMilliEndTime:(J),Added Methods
+java.method.added,No,org.apache.servicecomb.core.event.ServerAccessLogEvent.setMilliStartTime:(J),Added Methods
+java.method.added,No,org.apache.servicecomb.core.event.ServerAccessLogEvent.setRoutingContext:(Lio.vertx.ext.web.RoutingContext),Added Methods
+java.method.added,No,org.apache.servicecomb.core.definition.ServiceRegistryListener.destroy:(),Added Methods
+java.method.added,No,org.apache.servicecomb.core.definition.ServiceRegistryListener.onCreateMicroservice:(Lorg.apache.servicecomb.serviceregistry.event.CreateMicroserviceEvent),Added Methods
+java.method.added,No,org.apache.servicecomb.core.definition.ServiceRegistryListener.onCreateMicroserviceVersion:(Lorg.apache.servicecomb.serviceregistry.event.CreateMicroserviceVersionEvent),Added Methods
+java.method.added,No,org.apache.servicecomb.core.definition.ServiceRegistryListener.onDestroyMicroservice:(Lorg.apache.servicecomb.serviceregistry.event.DestroyMicroserviceEvent),Added Methods
+java.method.added,No,"org.apache.servicecomb.core.definition.ServiceRegistryListener.""<init>"":(Lorg.apache.servicecomb.core.SCBEngine)",Added Methods
+java.method.added,No,"org.apache.servicecomb.core.bootstrap.SpringBootstrap.""<init>"":()",Added Methods
+java.method.added,No,"org.apache.servicecomb.core.executor.ThreadPoolExecutorEx.""<init>"":(IIILjava.util.concurrent.TimeUnitLjava.util.concurrent.BlockingQueueLjava.util.concurrent.ThreadFactory)",Added Methods
+java.method.added,No,org.apache.servicecomb.core.exception.ThrowableExceptionToProducerResponseConverter.convert:(Lorg.apache.servicecomb.swagger.invocation.SwaggerInvocationLjava.lang.Throwable),Added Methods
+java.method.added,No,org.apache.servicecomb.core.exception.ThrowableExceptionToProducerResponseConverter.getExceptionClass:(),Added Methods
+java.method.added,No,org.apache.servicecomb.core.exception.ThrowableExceptionToProducerResponseConverter.getOrder:(),Added Methods
+java.method.added,No,"org.apache.servicecomb.core.exception.ThrowableExceptionToProducerResponseConverter.""<init>"":()",Added Methods
+java.method.added,No,org.apache.servicecomb.core.tracing.TraceIdLogger.debug:(Lorg.slf4j.LoggerLjava.lang.String[Ljava.lang.Object),Added Methods
+java.method.added,No,org.apache.servicecomb.core.tracing.TraceIdLogger.error:(Lorg.slf4j.LoggerLjava.lang.String[Ljava.lang.Object),Added Methods
+java.method.added,No,org.apache.servicecomb.core.tracing.TraceIdLogger.getInvocation:(),Added Methods
+java.method.added,No,org.apache.servicecomb.core.tracing.TraceIdLogger.getName:(),Added Methods
+java.method.added,No,org.apache.servicecomb.core.tracing.TraceIdLogger.info:(Lorg.slf4j.LoggerLjava.lang.String[Ljava.lang.Object),Added Methods
+java.method.added,No,"org.apache.servicecomb.core.tracing.TraceIdLogger.""<init>"":(Lorg.apache.servicecomb.core.Invocation)",Added Methods
+java.method.added,No,org.apache.servicecomb.core.tracing.TraceIdLogger.warn:(Lorg.slf4j.LoggerLjava.lang.String[Ljava.lang.Object),Added Methods
+java.method.added,No,org.apache.servicecomb.core.transport.TransportManager.addTransportBeforeInit:(Lorg.apache.servicecomb.core.Transport),Added Methods
+java.method.added,No,org.apache.servicecomb.core.transport.TransportManager.addTransportsBeforeInit:(Ljava.util.List),Added Methods
+java.method.added,No,org.apache.servicecomb.core.transport.TransportManager.clearTransportBeforeInit:(),Added Methods
+java.method.added,No,org.apache.servicecomb.core.transport.TransportManager.init:(Lorg.apache.servicecomb.core.SCBEngine),Added Methods
+java.method.removed,High,"org.apache.servicecomb.core.definition.schema.AbstractSchemaFactory.""<init>"":()",Removed Methods
+java.method.removed,High,org.apache.servicecomb.core.definition.schema.AbstractSchemaFactory.createSchema:(Lorg.apache.servicecomb.core.definition.schema.SchemaContext),Removed Methods
+java.method.removed,High,org.apache.servicecomb.core.definition.schema.AbstractSchemaFactory.generateSchemaPath:(Ljava.lang.StringLjava.lang.String),Removed Methods
+java.method.removed,High,org.apache.servicecomb.core.definition.schema.AbstractSchemaFactory.generateSwagger:(Lorg.apache.servicecomb.core.definition.schema.SchemaContext),Removed Methods
+java.method.removed,High,org.apache.servicecomb.core.definition.schema.AbstractSchemaFactory.getOrCreateSchema:(Lorg.apache.servicecomb.core.definition.schema.SchemaContext),Removed Methods
+java.method.removed,High,org.apache.servicecomb.core.definition.schema.AbstractSchemaFactory.loadSwagger:(Lorg.apache.servicecomb.core.definition.schema.SchemaContext),Removed Methods
+java.method.removed,High,org.apache.servicecomb.core.definition.schema.AbstractSchemaFactory.loadSwagger:(Ljava.lang.StringLjava.lang.String),Removed Methods
+java.method.removed,High,org.apache.servicecomb.core.definition.schema.AbstractSchemaFactory.setSchemaLoader:(Lorg.apache.servicecomb.core.definition.loader.SchemaLoader),Removed Methods
+java.method.removed,High,org.apache.servicecomb.core.transport.AbstractTransport.getTransportVertxFactory:(),Removed Methods
+java.method.removed,High,"org.apache.servicecomb.core.definition.CommonService.""<init>"":()",Removed Methods
+java.method.removed,High,org.apache.servicecomb.core.definition.CommonService.createOperationMgr:(Ljava.lang.String),Removed Methods
+java.method.removed,High,org.apache.servicecomb.core.definition.CommonService.ensureFindOperation:(Ljava.lang.String),Removed Methods
+java.method.removed,High,org.apache.servicecomb.core.definition.CommonService.findOperation:(Ljava.lang.String),Removed Methods
+java.method.removed,High,org.apache.servicecomb.core.definition.CommonService.getName:(),Removed Methods
+java.method.removed,High,org.apache.servicecomb.core.definition.CommonService.getOperations:(),Removed Methods
+java.method.removed,High,org.apache.servicecomb.core.definition.CommonService.regOperation:(Ljava.lang.StringLjava.lang.Object),Removed Methods
+java.method.removed,High,org.apache.servicecomb.core.definition.CommonService.setName:(Ljava.lang.String),Removed Methods
+java.method.removed,High,org.apache.servicecomb.core.provider.consumer.ConsumerProviderManager.createReferenceConfig:(Ljava.lang.String),Removed Methods
+java.method.removed,High,org.apache.servicecomb.core.provider.consumer.ConsumerProviderManager.createReferenceConfig:(Ljava.lang.StringLjava.lang.StringLjava.lang.String),Removed Methods
+java.method.removed,High,org.apache.servicecomb.core.provider.consumer.ConsumerProviderManager.getReferenceConfig:(Ljava.lang.String),Removed Methods
+java.method.removed,High,org.apache.servicecomb.core.provider.consumer.ConsumerProviderManager.setAppManager:(Lorg.apache.servicecomb.serviceregistry.consumer.AppManager),Removed Methods
+java.method.removed,High,org.apache.servicecomb.core.provider.consumer.ConsumerProviderManager.setTransport:(Ljava.lang.StringLjava.lang.String),Removed Methods
+java.method.removed,High,"org.apache.servicecomb.core.definition.schema.ConsumerSchemaContext.""<init>"":()",Removed Methods
+java.method.removed,High,org.apache.servicecomb.core.definition.schema.ConsumerSchemaContext.getMicroservice:(),Removed Methods
+java.method.removed,High,org.apache.servicecomb.core.definition.schema.ConsumerSchemaContext.setMicroservice:(Lorg.apache.servicecomb.serviceregistry.api.registry.Microservice),Removed Methods
+java.method.removed,High,"org.apache.servicecomb.core.definition.schema.ConsumerSchemaFactory.""<init>"":()",Removed Methods
+java.method.removed,High,org.apache.servicecomb.core.definition.schema.ConsumerSchemaFactory.createConsumerSchema:(Lorg.apache.servicecomb.core.definition.MicroserviceMetaLorg.apache.servicecomb.serviceregistry.api.registry.Microservice),Removed Methods
+java.method.removed,High,org.apache.servicecomb.core.definition.schema.ConsumerSchemaFactory.createSchema:(Lorg.apache.servicecomb.core.definition.schema.ConsumerSchemaContext),Removed Methods
+java.method.removed,High,org.apache.servicecomb.core.definition.schema.ConsumerSchemaFactory.createSchema:(Lorg.apache.servicecomb.core.definition.schema.SchemaContext),Removed Methods
+java.method.removed,High,org.apache.servicecomb.core.definition.schema.ConsumerSchemaFactory.loadSwagger:(Lorg.apache.servicecomb.core.definition.schema.ConsumerSchemaContext),Removed Methods
+java.method.removed,High,org.apache.servicecomb.core.definition.schema.ConsumerSchemaFactory.loadSwagger:(Lorg.apache.servicecomb.core.definition.schema.SchemaContext),Removed Methods
+java.method.removed,High,"org.apache.servicecomb.core.CseContext.""<init>"":()",Removed Methods
+java.method.removed,High,org.apache.servicecomb.core.CseContext.getConsumerProviderManager:(),Removed Methods
+java.method.removed,High,org.apache.servicecomb.core.CseContext.getConsumerSchemaFactory:(),Removed Methods
+java.method.removed,High,org.apache.servicecomb.core.CseContext.getInstance:(),Removed Methods
+java.method.removed,High,org.apache.servicecomb.core.CseContext.getProducerProviderManager:(),Removed Methods
+java.method.removed,High,org.apache.servicecomb.core.CseContext.getSchemaListenerManager:(),Removed Methods
+java.method.removed,High,org.apache.servicecomb.core.CseContext.getSchemaLoader:(),Removed Methods
+java.method.removed,High,org.apache.servicecomb.core.CseContext.getSwaggerEnvironment:(),Removed Methods
+java.method.removed,High,org.apache.servicecomb.core.CseContext.getTransportManager:(),Removed Methods
+java.method.removed,High,org.apache.servicecomb.core.CseContext.setConsumerProviderManager:(Lorg.apache.servicecomb.core.provider.consumer.ConsumerProviderManager),Removed Methods
+java.method.removed,High,org.apache.servicecomb.core.CseContext.setConsumerSchemaFactory:(Lorg.apache.servicecomb.core.definition.schema.ConsumerSchemaFactory),Removed Methods
+java.method.removed,High,org.apache.servicecomb.core.CseContext.setProducerProviderManager:(Lorg.apache.servicecomb.core.provider.producer.ProducerProviderManager),Removed Methods
+java.method.removed,High,org.apache.servicecomb.core.CseContext.setSchemaListenerManager:(Lorg.apache.servicecomb.core.definition.loader.SchemaListenerManager),Removed Methods
+java.method.removed,High,org.apache.servicecomb.core.CseContext.setSchemaLoader:(Lorg.apache.servicecomb.core.definition.loader.SchemaLoader),Removed Methods
+java.method.removed,High,org.apache.servicecomb.core.CseContext.setSwaggerEnvironment:(Lorg.apache.servicecomb.swagger.engine.SwaggerEnvironment),Removed Methods
+java.method.removed,High,org.apache.servicecomb.core.CseContext.setTransportManager:(Lorg.apache.servicecomb.core.transport.TransportManager),Removed Methods
+java.method.removed,High,org.apache.servicecomb.core.definition.classloader.DefaultMicroserviceClassLoaderFactory.create:(Ljava.lang.StringLjava.lang.StringLjava.lang.String),Removed Methods
+java.method.removed,High,"org.apache.servicecomb.core.definition.classloader.DefaultMicroserviceClassLoaderFactory.""<init>"":()",Removed Methods
+java.method.removed,High,org.apache.servicecomb.core.definition.loader.DynamicSchemaLoader.registerSchemas:(Ljava.lang.StringLjava.lang.String),Removed Methods
+java.method.removed,High,org.apache.servicecomb.core.definition.loader.DynamicSchemaLoader.registerSchemas:(Ljava.lang.String),Removed Methods
+java.method.removed,High,org.apache.servicecomb.core.exception.ExceptionUtils.operationIdInvalid:(Ljava.lang.StringLjava.lang.String),Removed Methods
+java.method.removed,High,org.apache.servicecomb.core.handler.HandlerConfigUtils.init:(),Removed Methods
+java.method.removed,High,org.apache.servicecomb.core.Invocation.getArgs:(),Removed Methods
+java.method.removed,High,"org.apache.servicecomb.core.Invocation.""<init>"":(Lorg.apache.servicecomb.core.EndpointLorg.apache.servicecomb.core.definition.OperationMeta[Ljava.lang.Object)",Removed Methods
+java.method.removed,High,"org.apache.servicecomb.core.Invocation.""<init>"":(Lorg.apache.servicecomb.core.provider.consumer.ReferenceConfigLorg.apache.servicecomb.core.definition.OperationMeta[Ljava.lang.Object)",Removed Methods
+java.method.removed,High,org.apache.servicecomb.core.invocation.InvocationFactory.forConsumer:(Lorg.apache.servicecomb.core.provider.consumer.ReferenceConfigLorg.apache.servicecomb.core.definition.OperationMeta[Ljava.lang.Object),Removed Methods
+java.method.removed,High,org.apache.servicecomb.core.invocation.InvocationFactory.forConsumer:(Lorg.apache.servicecomb.core.provider.consumer.ReferenceConfigLorg.apache.servicecomb.core.definition.SchemaMetaLjava.lang.String[Ljava.lang.Object),Removed Methods
+java.method.removed,High,org.apache.servicecomb.core.invocation.InvocationFactory.forConsumer:(Lorg.apache.servicecomb.core.provider.consumer.ReferenceConfigLjava.lang.String[Ljava.lang.Object),Removed Methods
+java.method.removed,High,org.apache.servicecomb.core.invocation.InvocationFactory.forProvider:(Lorg.apache.servicecomb.core.EndpointLorg.apache.servicecomb.core.definition.OperationMeta[Ljava.lang.Object),Removed Methods
+java.method.removed,High,org.apache.servicecomb.core.provider.consumer.InvokerUtils.invoke:(Lorg.apache.servicecomb.core.Invocation),Removed Methods
+java.method.removed,High,org.apache.servicecomb.core.provider.consumer.InvokerUtils.syncInvoke:(Ljava.lang.StringLjava.lang.StringLjava.lang.StringLjava.lang.StringLjava.lang.String[Ljava.lang.Object),Removed Methods
+java.method.removed,High,org.apache.servicecomb.core.provider.consumer.InvokerUtils.syncInvoke:(Ljava.lang.StringLjava.lang.StringLjava.lang.String[Ljava.lang.Object),Removed Methods
+java.method.removed,High,org.apache.servicecomb.core.definition.classloader.MicroserviceClassLoader.getAppId:(),Removed Methods
+java.method.removed,High,org.apache.servicecomb.core.definition.classloader.MicroserviceClassLoader.getMicroserviceName:(),Removed Methods
+java.method.removed,High,org.apache.servicecomb.core.definition.classloader.MicroserviceClassLoader.getVersion:(),Removed Methods
+java.method.removed,High,"org.apache.servicecomb.core.definition.classloader.MicroserviceClassLoader.""<init>"":(Ljava.lang.StringLjava.lang.StringLjava.lang.String)",Removed Methods
+java.method.removed,High,org.apache.servicecomb.core.definition.classloader.MicroserviceClassLoaderFactory.create:(Ljava.lang.StringLjava.lang.StringLjava.lang.String),Removed Methods
+java.method.removed,High,org.apache.servicecomb.core.definition.MicroserviceMeta.ensureFindSchemaMeta:(Ljava.lang.Class),Removed Methods
+java.method.removed,High,org.apache.servicecomb.core.definition.MicroserviceMeta.getClassLoader:(),Removed Methods
+java.method.removed,High,org.apache.servicecomb.core.definition.MicroserviceMeta.getSchemaMetas:(),Removed Methods
+java.method.removed,High,"org.apache.servicecomb.core.definition.MicroserviceMeta.""<init>"":(Ljava.lang.String)",Removed Methods
+java.method.removed,High,org.apache.servicecomb.core.definition.MicroserviceMeta.parseMicroserviceName:(Ljava.lang.String),Removed Methods
+java.method.removed,High,org.apache.servicecomb.core.definition.MicroserviceMeta.regSchemaMeta:(Lorg.apache.servicecomb.core.definition.SchemaMeta),Removed Methods
+java.method.removed,High,org.apache.servicecomb.core.definition.MicroserviceMeta.setClassLoader:(Ljava.lang.ClassLoader),Removed Methods
+java.method.removed,High,org.apache.servicecomb.core.definition.MicroserviceMeta.setConsumer:(Z),Removed Methods
+java.method.removed,High,org.apache.servicecomb.core.definition.MicroserviceVersionMeta.destroy:(),Removed Methods
+java.method.removed,High,org.apache.servicecomb.core.definition.MicroserviceVersionMeta.getMicroserviceMeta:(),Removed Methods
+java.method.removed,High,"org.apache.servicecomb.core.definition.MicroserviceVersionMeta.""<init>"":(Ljava.lang.StringLjava.lang.StringLorg.apache.servicecomb.core.definition.classloader.MicroserviceClassLoaderFactory)",Removed Methods
+java.method.removed,High,org.apache.servicecomb.core.definition.MicroserviceVersionMetaFactory.create:(Ljava.lang.StringLjava.lang.String),Removed Methods
+java.method.removed,High,"org.apache.servicecomb.core.definition.MicroserviceVersionMetaFactory.""<init>"":()",Removed Methods
+java.method.removed,High,"org.apache.servicecomb.core.definition.MicroserviceVersionMetaFactory.""<init>"":(Lorg.apache.servicecomb.core.definition.classloader.MicroserviceClassLoaderFactory)",Removed Methods
+java.method.removed,High,org.apache.servicecomb.core.filter.OperationInstancesDiscoveryFilter.fillInstances:(Ljava.util.MapLjava.util.Map),Removed Methods
+java.method.removed,High,org.apache.servicecomb.core.filter.OperationInstancesDiscoveryFilter.groupByVersion:(Lorg.apache.servicecomb.core.InvocationLjava.util.Map),Removed Methods
+java.method.removed,High,org.apache.servicecomb.core.filter.OperationInstancesDiscoveryFilter.initOperationNodes:(Lorg.apache.servicecomb.serviceregistry.discovery.DiscoveryTreeNodeLjava.util.Map),Removed Methods
+java.method.removed,High,org.apache.servicecomb.core.definition.OperationMeta.destroy:(),Removed Methods
+java.method.removed,High,org.apache.servicecomb.core.definition.OperationMeta.findResponseMeta:(I),Removed Methods
+java.method.removed,High,org.apache.servicecomb.core.definition.OperationMeta.getExtData:(),Removed Methods
+java.method.removed,High,org.apache.servicecomb.core.definition.OperationMeta.getMethod:(),Removed Methods
+java.method.removed,High,org.apache.servicecomb.core.definition.OperationMeta.getParamSize:(),Removed Methods
+java.method.removed,High,org.apache.servicecomb.core.definition.OperationMeta.getTransport:(),Removed Methods
+java.method.removed,High,org.apache.servicecomb.core.definition.OperationMeta.init:(Lorg.apache.servicecomb.core.definition.SchemaMetaLjava.lang.reflect.MethodLjava.lang.StringLjava.lang.StringLio.swagger.models.Operation),Removed Methods
+java.method.removed,High,org.apache.servicecomb.core.definition.OperationMeta.setHttpMethod:(Ljava.lang.String),Removed Methods
+java.method.removed,High,org.apache.servicecomb.core.definition.classloader.PrivateMicroserviceClassLoaderFactory.create:(Ljava.lang.StringLjava.lang.StringLjava.lang.String),Removed Methods
+java.method.removed,High,"org.apache.servicecomb.core.definition.PrivateMicroserviceVersionMetaFactory.""<init>"":()",Removed Methods
+java.method.removed,High,org.apache.servicecomb.core.provider.producer.ProducerMeta.getInstanceClass:(),Removed Methods
+java.method.removed,High,"org.apache.servicecomb.core.provider.producer.ProducerMeta.""<init>"":(Ljava.lang.StringLjava.lang.ObjectLjava.lang.Class)",Removed Methods
+java.method.removed,High,org.apache.servicecomb.core.provider.producer.ProducerMeta.setInstanceClass:(Ljava.lang.Class),Removed Methods
+java.method.removed,High,org.apache.servicecomb.core.provider.producer.ProducerProviderManager.onBootEvent:(Lorg.apache.servicecomb.core.BootListener$BootEvent),Removed Methods
+java.method.removed,High,"org.apache.servicecomb.core.provider.producer.ProducerProviderManager.""<init>"":()",Removed Methods
+java.method.removed,High,org.apache.servicecomb.core.definition.schema.ProducerSchemaContext.getProducerInstance:(),Removed Methods
+java.method.removed,High,"org.apache.servicecomb.core.definition.schema.ProducerSchemaContext.""<init>"":()",Removed Methods
+java.method.removed,High,org.apache.servicecomb.core.definition.schema.ProducerSchemaContext.setProducerInstance:(Ljava.lang.Object),Removed Methods
+java.method.removed,High,org.apache.servicecomb.core.definition.schema.ProducerSchemaFactory.createSchema:(Lorg.apache.servicecomb.core.definition.schema.ProducerSchemaContext),Removed Methods
+java.method.removed,High,org.apache.servicecomb.core.definition.schema.ProducerSchemaFactory.createSchema:(Lorg.apache.servicecomb.core.definition.schema.SchemaContext),Removed Methods
+java.method.removed,High,org.apache.servicecomb.core.definition.schema.ProducerSchemaFactory.getOrCreateProducerSchema:(Ljava.lang.StringLjava.lang.ClassLjava.lang.Object),Removed Methods
+java.method.removed,High,"org.apache.servicecomb.core.definition.schema.ProducerSchemaFactory.""<init>"":()",Removed Methods
+java.method.removed,High,org.apache.servicecomb.core.definition.schema.ProducerSchemaFactory.setSwaggerEnv:(Lorg.apache.servicecomb.swagger.engine.SwaggerEnvironment),Removed Methods
+java.method.removed,High,org.apache.servicecomb.core.provider.consumer.ReferenceConfig.getMicroserviceMeta:(),Removed Methods
+java.method.removed,High,org.apache.servicecomb.core.provider.consumer.ReferenceConfig.getMicroserviceVersionRule:(),Removed Methods
+java.method.removed,High,"org.apache.servicecomb.core.provider.consumer.ReferenceConfig.""<init>"":()",Removed Methods
+java.method.removed,High,"org.apache.servicecomb.core.provider.consumer.ReferenceConfig.""<init>"":(Lorg.apache.servicecomb.serviceregistry.consumer.AppManagerLjava.lang.StringLjava.lang.StringLjava.lang.String)",Removed Methods
+java.method.removed,High,org.apache.servicecomb.core.provider.consumer.ReferenceConfig.setMicroserviceVersionRule:(Lorg.apache.servicecomb.serviceregistry.consumer.MicroserviceVersionRule),Removed Methods
+java.method.removed,High,org.apache.servicecomb.core.SCBEngine.createReferenceConfigForInvoke:(Ljava.lang.StringLjava.lang.StringLjava.lang.String),Removed Methods
+java.method.removed,High,org.apache.servicecomb.core.SCBEngine.getBootListenerList:(),Removed Methods
+java.method.removed,High,org.apache.servicecomb.core.SCBEngine.getReferenceConfigForInvoke:(Ljava.lang.String),Removed Methods
+java.method.removed,High,org.apache.servicecomb.core.SCBEngine.getStaticSchemaFactory:(),Removed Methods
+java.method.removed,High,org.apache.servicecomb.core.SCBEngine.init:(),Removed Methods
+java.method.removed,High,org.apache.servicecomb.core.SCBEngine.setBootListenerList:(Ljava.util.Collection),Removed Methods
+java.method.removed,High,org.apache.servicecomb.core.SCBEngine.setSchemaListenerManager:(Lorg.apache.servicecomb.core.definition.loader.SchemaListenerManager),Removed Methods
+java.method.removed,High,org.apache.servicecomb.core.SCBEngine.setStaticSchemaFactory:(Lorg.apache.servicecomb.core.definition.schema.StaticSchemaFactory),Removed Methods
+java.method.removed,High,org.apache.servicecomb.core.tracing.ScbMarker.getInvocation:(),Removed Methods
+java.method.removed,High,"org.apache.servicecomb.core.tracing.ScbMarker.""<init>"":(Lorg.apache.servicecomb.core.Invocation)",Removed Methods
+java.method.removed,High,org.apache.servicecomb.core.definition.schema.SchemaContext.getMicroserviceMeta:(),Removed Methods
+java.method.removed,High,org.apache.servicecomb.core.definition.schema.SchemaContext.getMicroserviceName:(),Removed Methods
+java.method.removed,High,org.apache.servicecomb.core.definition.schema.SchemaContext.getProviderClass:(),Removed Methods
+java.method.removed,High,org.apache.servicecomb.core.definition.schema.SchemaContext.getSchemaId:(),Removed Methods
+java.method.removed,High,org.apache.servicecomb.core.definition.schema.SchemaContext.getSchemaMeta:(),Removed Methods
+java.method.removed,High,"org.apache.servicecomb.core.definition.schema.SchemaContext.""<init>"":()",Removed Methods
+java.method.removed,High,org.apache.servicecomb.core.definition.schema.SchemaContext.setMicroserviceMeta:(Lorg.apache.servicecomb.core.definition.MicroserviceMeta),Removed Methods
+java.method.removed,High,org.apache.servicecomb.core.definition.schema.SchemaContext.setProviderClass:(Ljava.lang.Class),Removed Methods
+java.method.removed,High,org.apache.servicecomb.core.definition.schema.SchemaContext.setSchemaId:(Ljava.lang.String),Removed Methods
+java.method.removed,High,org.apache.servicecomb.core.definition.schema.SchemaContext.setSchemaMeta:(Lorg.apache.servicecomb.core.definition.SchemaMeta),Removed Methods
+java.method.removed,High,org.apache.servicecomb.core.definition.loader.SchemaListener.onSchemaLoaded:([Lorg.apache.servicecomb.core.definition.SchemaMeta),Removed Methods
+java.method.removed,High,org.apache.servicecomb.core.definition.loader.SchemaListenerManager.ensureFindSchemaMeta:(Ljava.lang.String),Removed Methods
+java.method.removed,High,org.apache.servicecomb.core.definition.loader.SchemaListenerManager.getAllSchemaMeta:(),Removed Methods
+java.method.removed,High,org.apache.servicecomb.core.definition.loader.SchemaListenerManager.notifySchemaListener:(),Removed Methods
+java.method.removed,High,org.apache.servicecomb.core.definition.loader.SchemaListenerManager.notifySchemaListener:(Ljava.util.List),Removed Methods
+java.method.removed,High,org.apache.servicecomb.core.definition.loader.SchemaListenerManager.notifySchemaListener:([Lorg.apache.servicecomb.core.definition.MicroserviceMeta),Removed Methods
+java.method.removed,High,org.apache.servicecomb.core.definition.loader.SchemaListenerManager.notifySchemaListener:([Lorg.apache.servicecomb.core.definition.SchemaMeta),Removed Methods
+java.method.removed,High,"org.apache.servicecomb.core.definition.loader.SchemaListenerManager.""<init>"":()",Removed Methods
+java.method.removed,High,org.apache.servicecomb.core.definition.loader.SchemaListenerManager.setSchemaListenerList:(Ljava.util.List),Removed Methods
+java.method.removed,High,org.apache.servicecomb.core.definition.loader.SchemaLoader.registerSchema:(Lorg.apache.servicecomb.core.definition.MicroserviceMetaLjava.lang.StringLio.swagger.models.Swagger),Removed Methods
+java.method.removed,High,org.apache.servicecomb.core.definition.loader.SchemaLoader.registerSchema:(Ljava.lang.StringLorg.springframework.core.io.Resource),Removed Methods
+java.method.removed,High,org.apache.servicecomb.core.definition.loader.SchemaLoader.registerSchema:(Ljava.lang.StringLjava.lang.StringLjava.lang.String),Removed Methods
+java.method.removed,High,org.apache.servicecomb.core.definition.loader.SchemaLoader.registerSchema:(Ljava.lang.StringLio.swagger.models.Swagger),Removed Methods
+java.method.removed,High,"org.apache.servicecomb.core.definition.loader.SchemaLoader.""<init>"":()",Removed Methods
+java.method.removed,High,org.apache.servicecomb.core.definition.SchemaMeta.getConsumerHandlerChain:(),Removed Methods
+java.method.removed,High,org.apache.servicecomb.core.definition.SchemaMeta.getPackageName:(),Removed Methods
+java.method.removed,High,org.apache.servicecomb.core.definition.SchemaMeta.getProviderHandlerChain:(),Removed Methods
+java.method.removed,High,org.apache.servicecomb.core.definition.SchemaMeta.getSwaggerIntf:(),Removed Methods
+java.method.removed,High,org.apache.servicecomb.core.definition.SchemaMeta.getSwaggerToClassGenerator:(),Removed Methods
+java.method.removed,High,"org.apache.servicecomb.core.definition.SchemaMeta.""<init>"":(Lio.swagger.models.SwaggerLorg.apache.servicecomb.core.definition.MicroserviceMetaLjava.lang.String)",Removed Methods
+java.method.removed,High,org.apache.servicecomb.core.definition.SchemaMeta.setConsumerHandlerChain:(Ljava.util.List),Removed Methods
+java.method.removed,High,org.apache.servicecomb.core.definition.SchemaMeta.setProviderHandlerChain:(Ljava.util.List),Removed Methods
+java.method.removed,High,org.apache.servicecomb.core.definition.SchemaUtils.generatePackageName:(Lorg.apache.servicecomb.core.definition.MicroserviceMetaLjava.lang.String),Removed Methods
+java.method.removed,High,org.apache.servicecomb.core.definition.SchemaUtils.parseSwagger:(Ljava.lang.String),Removed Methods
+java.method.removed,High,org.apache.servicecomb.core.definition.SchemaUtils.parseSwagger:(Ljava.net.URL),Removed Methods
+java.method.removed,High,org.apache.servicecomb.core.definition.SchemaUtils.swaggerToString:(Lio.swagger.models.Swagger),Removed Methods
+java.method.removed,High,"org.apache.servicecomb.core.definition.StaticMicroserviceVersionMeta.""<init>"":(Lorg.apache.servicecomb.serviceregistry.api.registry.StaticMicroserviceLorg.apache.servicecomb.core.definition.classloader.MicroserviceClassLoaderFactory)",Removed Methods
+java.method.removed,High,org.apache.servicecomb.core.definition.StaticMicroserviceVersionMetaFactory.create:(Lorg.apache.servicecomb.serviceregistry.api.registry.StaticMicroservice),Removed Methods
+java.method.removed,High,"org.apache.servicecomb.core.definition.StaticMicroserviceVersionMetaFactory.""<init>"":()",Removed Methods
+java.method.removed,High,org.apache.servicecomb.core.definition.schema.StaticSchemaFactory.createSchema:(Lorg.apache.servicecomb.core.definition.schema.SchemaContext),Removed Methods
+java.method.removed,High,org.apache.servicecomb.core.definition.schema.StaticSchemaFactory.loadSchema:(Lorg.apache.servicecomb.core.definition.MicroserviceMetaLorg.apache.servicecomb.serviceregistry.api.registry.StaticMicroservice),Removed Methods
+java.method.removed,High,"org.apache.servicecomb.core.definition.schema.StaticSchemaFactory.""<init>"":()",Removed Methods
+java.method.removed,High,"org.apache.servicecomb.core.executor.ThreadPoolExecutorEx.""<init>"":(IIILjava.util.concurrent.TimeUnitLjava.util.concurrent.BlockingQueue)",Removed Methods
+java.method.removed,High,org.apache.servicecomb.core.transport.TransportManager.init:(),Removed Methods
+java.method.removed,High,org.apache.servicecomb.core.transport.TransportManager.setTransports:(Ljava.util.List),Removed Methods
+java.method.removed,High,org.apache.servicecomb.core.transport.TransportVertxFactory.getMetricsFactory:(),Removed Methods
+java.method.removed,High,org.apache.servicecomb.core.transport.TransportVertxFactory.getTransportVertx:(),Removed Methods
+java.method.removed,High,"org.apache.servicecomb.core.transport.TransportVertxFactory.""<init>"":()",Removed Methods
+java.method.removed,High,org.apache.servicecomb.core.unittest.UnitTestMeta.getConsumerProviderManager:(),Removed Methods
+java.method.removed,High,org.apache.servicecomb.core.unittest.UnitTestMeta.getConsumerSchemaFactory:(),Removed Methods
+java.method.removed,High,org.apache.servicecomb.core.unittest.UnitTestMeta.getOrCreateSchemaMeta:(Ljava.lang.Class),Removed Methods
+java.method.removed,High,org.apache.servicecomb.core.unittest.UnitTestMeta.getOrCreateSchemaMeta:(Ljava.lang.StringLjava.lang.StringLjava.lang.StringLjava.lang.Class),Removed Methods
+java.method.removed,High,org.apache.servicecomb.core.unittest.UnitTestMeta.getServiceRegistry:(),Removed Methods
+java.method.removed,High,org.apache.servicecomb.core.unittest.UnitTestMeta.init:(),Removed Methods
+java.method.removed,High,org.apache.servicecomb.core.unittest.UnitTestMeta.registerSchema:(Lorg.apache.servicecomb.swagger.generator.core.SwaggerGeneratorContextLjava.lang.Class),Removed Methods
+java.method.removed,High,"org.apache.servicecomb.core.unittest.UnitTestMeta.""<init>"":()",Removed Methods
+java.interface.abstractMethodRemoved,High,org.apache.servicecomb.core.ProducerProvider,Abstract method void init() has been removed from this interface.
+java.interface.removed,High,org.apache.servicecomb.core.definition.classloader.MicroserviceClassLoaderFactory,This interface has been removed.
+java.interface.removed,High,org.apache.servicecomb.core.definition.loader.SchemaListener,This interface has been removed.
+java.class.superInterfaceRemoved,High,org.apache.servicecomb.core.provider.producer.ProducerProviderManager,Removed super-interface org.apache.servicecomb.core.BootListener.
+java.class.superInterfaceRemoved,High,org.apache.servicecomb.core.tracing.ScbMarker,Removed super-interface org.apache.servicecomb.foundation.common.log.NoCacheMarker.
+java.superClass.removed,Medium,org.apache.servicecomb.core.definition.MicroserviceMeta,Removed super-class CommonService<OperationMeta>.
+java.superClass.removed,Medium,org.apache.servicecomb.core.definition.SchemaMeta,Removed super-class CommonService<OperationMeta>.
+java.method.nowDefault,No,org.apache.servicecomb.core.BootListener,Method void onBootEvent(BootListener.BootEvent) became default.
+java.class.fieldAdded,Low,org.apache.servicecomb.core.executor.GroupExecutor,Field groupName has been added to this class.
+java.class.fieldAdded,Low,org.apache.servicecomb.core.provider.consumer.ReferenceConfig,Field microserviceReferenceConfig has been added to this class.
+java.class.fieldAdded,Low,org.apache.servicecomb.core.provider.consumer.ReferenceConfig,Field versionRule has been added to this class.
+java.method.nowDefault,No,org.apache.servicecomb.core.BootListener.onBootEvent,Method became default.
+java.class.noLongerImplementsInterface,High,org.apache.servicecomb.core.provider.producer.ProducerProviderManager,Class no longer implements interface 'org.apache.servicecomb.core.BootListener'.
+java.class.noLongerImplementsInterface,High,org.apache.servicecomb.core.tracing.ScbMarker,Class no longer implements interface 'org.apache.servicecomb.foundation.common.log.NoCacheMarker'.
+java.class.noLongerInheritsFromClass,High,org.apache.servicecomb.core.definition.MicroserviceMeta,Class no longer inherits from 'org.apache.servicecomb.core.definition.CommonService<org.apache.servicecomb.core.definition.OperationMeta>'.
+java.class.noLongerInheritsFromClass,High,org.apache.servicecomb.core.definition.SchemaMeta,Class no longer inherits from 'org.apache.servicecomb.core.definition.CommonService<org.apache.servicecomb.core.definition.OperationMeta>'.
+java.class.removed,High,org.apache.servicecomb.core.CseContext,Class was removed.
+java.class.removed,High,org.apache.servicecomb.core.definition.CommonService<OPERATION>,Class was removed.
+java.class.removed,High,org.apache.servicecomb.core.definition.MicroserviceVersionMeta,Class was removed.
+java.class.removed,High,org.apache.servicecomb.core.definition.MicroserviceVersionMetaFactory,Class was removed.
+java.class.removed,High,org.apache.servicecomb.core.definition.PrivateMicroserviceVersionMetaFactory,Class was removed.
+java.class.removed,High,org.apache.servicecomb.core.definition.SchemaUtils,Class was removed.
+java.class.removed,High,org.apache.servicecomb.core.definition.StaticMicroserviceVersionMeta,Class was removed.
+java.class.removed,High,org.apache.servicecomb.core.definition.StaticMicroserviceVersionMetaFactory,Class was removed.
+java.class.removed,High,org.apache.servicecomb.core.definition.classloader.DefaultMicroserviceClassLoaderFactory,Class was removed.
+java.class.removed,High,org.apache.servicecomb.core.definition.classloader.MicroserviceClassLoader,Class was removed.
+java.class.removed,High,org.apache.servicecomb.core.definition.classloader.PrivateMicroserviceClassLoaderFactory,Class was removed.
+java.class.removed,High,org.apache.servicecomb.core.definition.loader.DynamicSchemaLoader,Class was removed.
+java.class.removed,High,org.apache.servicecomb.core.definition.loader.SchemaListenerManager,Class was removed.
+java.class.removed,High,org.apache.servicecomb.core.definition.loader.SchemaLoader,Class was removed.
+java.class.removed,High,org.apache.servicecomb.core.definition.schema.AbstractSchemaFactory<CONTEXT extends org.apache.servicecomb.core.definition.schema.SchemaContext>,Class was removed.
+java.class.removed,High,org.apache.servicecomb.core.definition.schema.ConsumerSchemaContext,Class was removed.
+java.class.removed,High,org.apache.servicecomb.core.definition.schema.ConsumerSchemaFactory,Class was removed.
+java.class.removed,High,org.apache.servicecomb.core.definition.schema.ProducerSchemaContext,Class was removed.
+java.class.removed,High,org.apache.servicecomb.core.definition.schema.ProducerSchemaFactory,Class was removed.
+java.class.removed,High,org.apache.servicecomb.core.definition.schema.SchemaContext,Class was removed.
+java.class.removed,High,org.apache.servicecomb.core.definition.schema.StaticSchemaFactory,Class was removed.
+java.class.removed,High,org.apache.servicecomb.core.transport.TransportVertxFactory,Class was removed.
+java.class.removed,High,org.apache.servicecomb.core.unittest.UnitTestMeta,Class was removed.
+java.class.removed,High,org.apache.servicecomb.core.definition.classloader.MicroserviceClassLoaderFactory,Class was removed.
+java.class.removed,High,org.apache.servicecomb.core.definition.loader.SchemaListener,Class was removed.
+java.field.removed,High,org.apache.servicecomb.core.definition.CommonService<OPERATION>.operationMgr @ org.apache.servicecomb.core.definition.MicroserviceMeta,Field removed from class.
+java.field.removed,High,org.apache.servicecomb.core.definition.CommonService<OPERATION>.operationMgr @ org.apache.servicecomb.core.definition.SchemaMeta,Field removed from class.
+java.field.removed,High,org.apache.servicecomb.core.handler.ConsumerHandlerManager.INSTANCE,Field removed from class.
+java.field.removed,High,org.apache.servicecomb.core.handler.ProducerHandlerManager.INSTANCE,Field removed from class.
+java.field.removed,High,org.apache.servicecomb.swagger.invocation.SwaggerInvocation.swaggerArguments @ org.apache.servicecomb.core.NonSwaggerInvocation,Field removed from class.
+java.field.removed,High,org.apache.servicecomb.swagger.invocation.context.InvocationContext.marker @ org.apache.servicecomb.core.Invocation,Field removed from class.
+java.field.removed,High,org.apache.servicecomb.swagger.invocation.context.InvocationContext.marker @ org.apache.servicecomb.core.NonSwaggerInvocation,Field removed from class.
+java.field.visibilityReduced,High,org.apache.servicecomb.swagger.invocation.SwaggerInvocation.swaggerArguments @ org.apache.servicecomb.core.Invocation,Visibility was reduced from 'protected' to 'private'.
+java.generics.formalTypeParameterAdded,High,"org.apache.servicecomb.core.provider.consumer.InvokerUtils::syncInvoke(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.Object[])",A new formal type parameter added to element: 'T'.
+java.generics.formalTypeParameterRemoved,High,org.apache.servicecomb.swagger.invocation.SwaggerInvocation::getSwaggerArgument(int) @ org.apache.servicecomb.core.Invocation,The formal type parameter 'T' was removed from the element.
+java.generics.formalTypeParameterRemoved,High,org.apache.servicecomb.swagger.invocation.SwaggerInvocation::getSwaggerArgument(int) @ org.apache.servicecomb.core.NonSwaggerInvocation,The formal type parameter 'T' was removed from the element.
+java.method.exception.checkedRemoved,Medium,org.apache.servicecomb.core.ProducerProvider::init() throws java.lang.Exception,Method no longer throws checked exceptions: java.lang.Exception.
+java.method.exception.checkedRemoved,Medium,org.apache.servicecomb.core.ConsumerProvider::init() throws java.lang.Exception,Method no longer throws checked exceptions: java.lang.Exception.
+java.method.exception.checkedRemoved,Medium,"org.apache.servicecomb.core.handler.impl.ProducerOperationHandler::handle(org.apache.servicecomb.core.Invocation, org.apache.servicecomb.swagger.invocation.AsyncResponse) throws java.lang.Exception",Method no longer throws checked exceptions: java.lang.Exception.
+java.method.exception.checkedRemoved,Medium,org.apache.servicecomb.core.provider.consumer.AbstractConsumerProvider::init() throws java.lang.Exception,Method no longer throws checked exceptions: java.lang.Exception.
+java.method.exception.checkedRemoved,Medium,org.apache.servicecomb.core.provider.producer.ProducerProviderManager::init() throws java.lang.Exception,Method no longer throws checked exceptions: java.lang.Exception.
+java.method.noLongerStatic,High,org.apache.servicecomb.core.executor.ExecutorManager::findByKey(java.lang.String),method no longer static
+java.method.noLongerStatic,High,org.apache.servicecomb.core.executor.ExecutorManager::findExecutor(org.apache.servicecomb.core.definition.OperationMeta),method no longer static
+java.method.noLongerStatic,High,"org.apache.servicecomb.core.executor.ExecutorManager::findExecutor(org.apache.servicecomb.core.definition.OperationMeta, java.util.concurrent.Executor)",method no longer static
+java.method.numberOfParametersChanged,High,"org.apache.servicecomb.core.provider.consumer.InvokerUtils::syncInvoke(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.Object[])",The number of parameters of the method have changed.
+java.method.numberOfParametersChanged,High,"org.apache.servicecomb.core.Invocation org.apache.servicecomb.core.invocation.InvocationFactory::forConsumer(org.apache.servicecomb.core.provider.consumer.ReferenceConfig, org.apache.servicecomb.core.definition.OperationMeta, java.lang.Object[])",The number of parameters of the method have changed.
+java.method.numberOfParametersChanged,High,"org.apache.servicecomb.core.definition.OperationMeta::init(org.apache.servicecomb.core.definition.SchemaMeta, java.lang.reflect.Method, java.lang.String, java.lang.String, io.swagger.models.Operation)",The number of parameters of the method have changed.
+java.method.numberOfParametersChanged,High,"org.apache.servicecomb.core.Invocation::<init>(org.apache.servicecomb.core.provider.consumer.ReferenceConfig, org.apache.servicecomb.core.definition.OperationMeta, java.lang.Object[])",The number of parameters of the method have changed.
+java.method.numberOfParametersChanged,High,org.apache.servicecomb.core.definition.MicroserviceMeta::<init>(java.lang.String),The number of parameters of the method have changed.
+java.method.numberOfParametersChanged,High,"org.apache.servicecomb.core.executor.ThreadPoolExecutorEx::<init>(int, int, int, java.util.concurrent.TimeUnit, java.util.concurrent.BlockingQueue<java.lang.Runnable>)",The number of parameters of the method have changed.
+java.method.numberOfParametersChanged,High,org.apache.servicecomb.core.handler.HandlerConfigUtils::init() throws java.lang.Exception,The number of parameters of the method have changed.
+java.method.numberOfParametersChanged,High,org.apache.servicecomb.core.provider.consumer.ReferenceConfig::<init>(),The number of parameters of the method have changed.
+java.method.numberOfParametersChanged,High,"org.apache.servicecomb.core.provider.producer.ProducerMeta::<init>(java.lang.String, java.lang.Object, java.lang.Class<?>)",The number of parameters of the method have changed.
+java.method.numberOfParametersChanged,High,org.apache.servicecomb.core.provider.producer.ProducerProviderManager::<init>(),The number of parameters of the method have changed.
+java.method.numberOfParametersChanged,High,org.apache.servicecomb.core.tracing.ScbMarker::<init>(org.apache.servicecomb.core.Invocation),The number of parameters of the method have changed.
+java.method.numberOfParametersChanged,High,org.apache.servicecomb.core.transport.TransportManager::init() throws java.lang.Exception,The number of parameters of the method have changed.
+java.method.returnTypeTypeParametersChanged,High,"org.apache.servicecomb.core.provider.consumer.InvokerUtils::syncInvoke(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.Object[])",The return type changed from 'java.lang.Object' to 'T'.
+java.method.returnTypeTypeParametersChanged,High,org.apache.servicecomb.swagger.invocation.SwaggerInvocation::getSwaggerArgument(int) @ org.apache.servicecomb.core.Invocation,The return type changed from 'T' to 'java.lang.Object'.
+java.method.returnTypeTypeParametersChanged,High,org.apache.servicecomb.swagger.invocation.SwaggerInvocation::getSwaggerArgument(int) @ org.apache.servicecomb.core.NonSwaggerInvocation,The return type changed from 'T' to 'java.lang.Object'.
+java.field.constantValueChanged,High,org.apache.servicecomb.core.Const.DEFAULT_VERSION_RULE,Constant field changed value from '0.0.0+' to '0.0.0.0+'.
+java.method.parameterTypeChanged,Medium,org.apache.servicecomb.swagger.invocation.SwaggerInvocation::getSwaggerArgument(===int===) @ org.apache.servicecomb.core.Invocation,The type of the parameter changed from 'int' to 'java.lang.String'.
+java.method.parameterTypeChanged,Medium,org.apache.servicecomb.swagger.invocation.SwaggerInvocation::getSwaggerArgument(===int===) @ org.apache.servicecomb.core.NonSwaggerInvocation,The type of the parameter changed from 'int' to 'java.lang.String'.
+java.method.parameterTypeChanged,Medium,"org.apache.servicecomb.core.provider.consumer.InvokerUtils::syncInvoke(java.lang.String, java.lang.String, java.lang.String, ===java.lang.Object[]===)","The type of the parameter changed from 'java.lang.Object[]' to 'java.util.Map<java.lang.String, java.lang.Object>'."
+java.method.parameterTypeChanged,Medium,"org.apache.servicecomb.core.Invocation org.apache.servicecomb.core.invocation.InvocationFactory::forProvider(org.apache.servicecomb.core.Endpoint, org.apache.servicecomb.core.definition.OperationMeta, ===java.lang.Object[]===)","The type of the parameter changed from 'java.lang.Object[]' to 'java.util.Map<java.lang.String, java.lang.Object>'."
+java.method.parameterTypeChanged,Medium,"org.apache.servicecomb.core.Invocation::<init>(org.apache.servicecomb.core.Endpoint, org.apache.servicecomb.core.definition.OperationMeta, ===java.lang.Object[]===)","The type of the parameter changed from 'java.lang.Object[]' to 'java.util.Map<java.lang.String, java.lang.Object>'."
+java.method.parameterTypeChanged,Medium,org.apache.servicecomb.swagger.invocation.SwaggerInvocation::setSwaggerArguments(===java.lang.Object[]===) @ org.apache.servicecomb.core.Invocation,"The type of the parameter changed from 'java.lang.Object[]' to 'java.util.Map<java.lang.String, java.lang.Object>'."
+java.method.parameterTypeChanged,Medium,org.apache.servicecomb.swagger.invocation.SwaggerInvocation::setSwaggerArguments(===java.lang.Object[]===) @ org.apache.servicecomb.core.NonSwaggerInvocation,"The type of the parameter changed from 'java.lang.Object[]' to 'java.util.Map<java.lang.String, java.lang.Object>'."
+java.method.parameterTypeChanged,Medium,"org.apache.servicecomb.core.definition.SchemaMeta::<init>(===io.swagger.models.Swagger===, org.apache.servicecomb.core.definition.MicroserviceMeta, java.lang.String)",The type of the parameter changed from 'io.swagger.models.Swagger' to 'org.apache.servicecomb.core.definition.MicroserviceMeta'.
+java.method.parameterTypeChanged,Medium,"org.apache.servicecomb.core.definition.SchemaMeta::<init>(io.swagger.models.Swagger, ===org.apache.servicecomb.core.definition.MicroserviceMeta===, java.lang.String)",The type of the parameter changed from 'org.apache.servicecomb.core.definition.MicroserviceMeta' to 'java.lang.String'.
+java.method.parameterTypeChanged,Medium,"org.apache.servicecomb.core.definition.SchemaMeta::<init>(io.swagger.models.Swagger, org.apache.servicecomb.core.definition.MicroserviceMeta, ===java.lang.String===)",The type of the parameter changed from 'java.lang.String' to 'io.swagger.models.Swagger'.
+java.method.returnTypeChanged,Medium,org.apache.servicecomb.core.ProducerProvider::init() throws java.lang.Exception,The return type changed from 'void' to  'java.util.List<org.apache.servicecomb.core.provider.producer.ProducerMeta>'.
+java.method.returnTypeChanged,Medium,org.apache.servicecomb.swagger.invocation.SwaggerInvocation::getSwaggerArguments() @ org.apache.servicecomb.core.Invocation,"The return type changed from 'java.lang.Object[]' to  'java.util.Map<java.lang.String, java.lang.Object>'."
+java.method.returnTypeChanged,Medium,org.apache.servicecomb.swagger.invocation.SwaggerInvocation::getSwaggerArguments() @ org.apache.servicecomb.core.NonSwaggerInvocation,"The return type changed from 'java.lang.Object[]' to  'java.util.Map<java.lang.String, java.lang.Object>'."
+java.method.returnTypeChanged,Medium,org.apache.servicecomb.core.definition.CommonService<OPERATION>::getOperations() @ org.apache.servicecomb.core.definition.SchemaMeta,"The return type changed from 'java.util.Collection<org.apache.servicecomb.core.definition.OperationMeta>' to  'java.util.Map<java.lang.String, org.apache.servicecomb.core.definition.OperationMeta>'."
+java.method.returnTypeChanged,Medium,org.apache.servicecomb.core.definition.SchemaMeta> org.apache.servicecomb.core.definition.MicroserviceMeta::getSchemaMetas(),"The return type changed from 'java.util.Collection<org.apache.servicecomb.core.definition.SchemaMeta>' to  'java.util.Map<java.lang.String, org.apache.servicecomb.core.definition.SchemaMeta>'."
+java.method.returnTypeChanged,Medium,org.apache.servicecomb.core.SCBEngine::setConsumerProviderManager(org.apache.servicecomb.core.provider.consumer.ConsumerProviderManager),The return type changed from 'void' to  'org.apache.servicecomb.core.SCBEngine'.
+java.method.returnTypeChanged,Medium,org.apache.servicecomb.core.SCBEngine::setTransportManager(org.apache.servicecomb.core.transport.TransportManager),The return type changed from 'void' to  'org.apache.servicecomb.core.SCBEngine'.
+java.method.returnTypeChanged,Medium,"org.apache.servicecomb.core.definition.OperationMeta::init(org.apache.servicecomb.core.definition.SchemaMeta, java.lang.reflect.Method, java.lang.String, java.lang.String, io.swagger.models.Operation)",The return type changed from 'void' to  'org.apache.servicecomb.core.definition.OperationMeta'.
+java.method.returnTypeChanged,Medium,org.apache.servicecomb.core.executor.GroupExecutor::init(),The return type changed from 'void' to  'org.apache.servicecomb.core.executor.GroupExecutor'.
+java.method.returnTypeChanged,Medium,org.apache.servicecomb.core.definition.MicroserviceMeta org.apache.servicecomb.core.definition.MicroserviceMeta::setConsumer(boolean),The return type changed from 'org.apache.servicecomb.core.definition.MicroserviceMeta' to  'void'.
+java.method.visibilityIncreased,Medium,org.apache.servicecomb.core.executor.ExecutorManager::<init>(),visibility increased
+java.annotation.removed,Medium,org.apache.servicecomb.core.provider.consumer.ConsumerProviderManager,Element no longer annotated with 'org.springframework.stereotype.Component'.
+java.annotation.removed,Medium,org.apache.servicecomb.core.provider.producer.ProducerProviderManager,Element no longer annotated with 'org.springframework.stereotype.Component'.
+java.annotation.removed,Medium,org.apache.servicecomb.core.transport.TransportManager,Element no longer annotated with 'org.springframework.stereotype.Component'.
+java.generics.elementNowParameterized,Medium,"org.apache.servicecomb.core.provider.consumer.InvokerUtils::syncInvoke(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.Object[])",Element now defines formal type parameters.

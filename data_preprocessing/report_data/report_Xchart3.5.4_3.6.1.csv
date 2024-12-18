@@ -1,0 +1,128 @@
+Metrics,Severity,API,Description
+java.method.added,No,org.knowm.xchart.style.AbstractBaseTheme.getAnnotationsFontColor:(),Added Methods
+java.method.added,No,org.knowm.xchart.style.AbstractBaseTheme.getCursorBackgroundColor:(),Added Methods
+java.method.added,No,org.knowm.xchart.style.AbstractBaseTheme.getCursorColor:(),Added Methods
+java.method.added,No,org.knowm.xchart.style.AbstractBaseTheme.getCursorFont:(),Added Methods
+java.method.added,No,org.knowm.xchart.style.AbstractBaseTheme.getCursorFontColor:(),Added Methods
+java.method.added,No,org.knowm.xchart.style.AbstractBaseTheme.getCursorSize:(),Added Methods
+java.method.added,No,org.knowm.xchart.style.AbstractBaseTheme.getInfoPanelBackgroundColor:(),Added Methods
+java.method.added,No,org.knowm.xchart.style.AbstractBaseTheme.getInfoPanelBorderColor:(),Added Methods
+java.method.added,No,org.knowm.xchart.style.AbstractBaseTheme.getInfoPanelFont:(),Added Methods
+java.method.added,No,org.knowm.xchart.style.AbstractBaseTheme.getInfoPanelPadding:(),Added Methods
+java.method.added,No,org.knowm.xchart.style.AbstractBaseTheme.getInfoPanelPosition:(),Added Methods
+java.method.added,No,org.knowm.xchart.style.AbstractBaseTheme.isCursorEnabled:(),Added Methods
+java.method.added,No,org.knowm.xchart.style.AbstractBaseTheme.isInfoPanelVisible:(),Added Methods
+java.method.added,No,org.knowm.xchart.style.AxesChartStyler.getXAxisMaxLabelCount:(),Added Methods
+java.method.added,No,org.knowm.xchart.style.AxesChartStyler.setXAxisMaxLabelCount:(I),Added Methods
+java.method.added,No,org.knowm.xchart.BoxChart.addSeries:(Ljava.lang.String[D),Added Methods
+java.method.added,No,org.knowm.xchart.BoxChart.addSeries:(Ljava.lang.String[I),Added Methods
+java.method.added,No,org.knowm.xchart.BoxChart.addSeries:(Ljava.lang.StringLjava.util.List),Added Methods
+java.method.added,No,"org.knowm.xchart.BoxChart.""<init>"":(Lorg.knowm.xchart.BoxChartBuilder)",Added Methods
+java.method.added,No,"org.knowm.xchart.BoxChart.""<init>"":(II)",Added Methods
+java.method.added,No,"org.knowm.xchart.BoxChart.""<init>"":(IILorg.knowm.xchart.style.Styler$ChartTheme)",Added Methods
+java.method.added,No,"org.knowm.xchart.BoxChart.""<init>"":(IILorg.knowm.xchart.style.Theme)",Added Methods
+java.method.added,No,org.knowm.xchart.BoxChart.paint:(Ljava.awt.Graphics2DII),Added Methods
+java.method.added,No,org.knowm.xchart.BoxChart.updateBoxSeries:(Ljava.lang.String[D),Added Methods
+java.method.added,No,org.knowm.xchart.BoxChart.updateBoxSeries:(Ljava.lang.StringLjava.util.ListLjava.util.ListLjava.util.List),Added Methods
+java.method.added,No,"org.knowm.xchart.BoxChartBuilder.""<init>"":()",Added Methods
+java.method.added,No,org.knowm.xchart.BoxChartBuilder.build:(),Added Methods
+java.method.added,No,org.knowm.xchart.BoxChartBuilder.build:(),Added Methods
+java.method.added,No,org.knowm.xchart.BoxChartBuilder.xAxisTitle:(Ljava.lang.String),Added Methods
+java.method.added,No,org.knowm.xchart.BoxChartBuilder.yAxisTitle:(Ljava.lang.String),Added Methods
+java.method.added,No,"org.knowm.xchart.style.BoxPlotStyler.""<init>"":()",Added Methods
+java.method.added,No,org.knowm.xchart.style.BoxPlotStyler.setTheme:(Lorg.knowm.xchart.style.Theme),Added Methods
+java.method.added,No,"org.knowm.xchart.BoxSeries.""<init>"":(Ljava.lang.StringLjava.util.ListLjava.util.ListLjava.util.ListLorg.knowm.xchart.internal.series.Series$DataType)",Added Methods
+java.method.added,No,org.knowm.xchart.BoxSeries.getLegendRenderType:(),Added Methods
+java.method.added,No,org.knowm.xchart.style.PieStyler.ClockwiseDirectionType.valueOf:(Ljava.lang.String),Added Methods
+java.method.added,No,org.knowm.xchart.style.PieStyler.ClockwiseDirectionType.values:(),Added Methods
+java.method.added,No,org.knowm.xchart.style.Styler.InfoPanelPosition.valueOf:(Ljava.lang.String),Added Methods
+java.method.added,No,org.knowm.xchart.style.Styler.InfoPanelPosition.values:(),Added Methods
+java.method.added,No,org.knowm.xchart.PdfboxGraphicsEncoder.savePdfboxGraphics:(Lorg.knowm.xchart.internal.chartpart.ChartLjava.io.File),Added Methods
+java.method.added,No,org.knowm.xchart.PdfboxGraphicsEncoder.savePdfboxGraphics:(Lorg.knowm.xchart.internal.chartpart.ChartLjava.io.OutputStream),Added Methods
+java.method.added,No,org.knowm.xchart.PdfboxGraphicsEncoder.savePdfboxGraphics:(Lorg.knowm.xchart.internal.chartpart.ChartLjava.lang.String),Added Methods
+java.method.added,No,org.knowm.xchart.PdfboxGraphicsEncoder.savePdfboxGraphics:(Ljava.util.ListLjava.io.File),Added Methods
+java.method.added,No,org.knowm.xchart.PdfboxGraphicsEncoder.savePdfboxGraphics:(Ljava.util.ListLjava.io.OutputStream),Added Methods
+java.method.added,No,org.knowm.xchart.PdfboxGraphicsEncoder.savePdfboxGraphics:(Ljava.util.ListLjava.lang.String),Added Methods
+java.method.added,No,org.knowm.xchart.style.PieStyler.getBorderWidth:(),Added Methods
+java.method.added,No,org.knowm.xchart.style.PieStyler.getClockwiseDirectionType:(),Added Methods
+java.method.added,No,org.knowm.xchart.style.PieStyler.getSumFormat:(),Added Methods
+java.method.added,No,org.knowm.xchart.style.PieStyler.setBorderWidth:(D),Added Methods
+java.method.added,No,org.knowm.xchart.style.PieStyler.setClockwiseDirectionType:(Lorg.knowm.xchart.style.PieStyler$ClockwiseDirectionType),Added Methods
+java.method.added,No,org.knowm.xchart.style.PieStyler.setSumFormat:(Ljava.lang.String),Added Methods
+java.method.added,No,org.knowm.xchart.XChartPanel.Printer.print:(Ljava.awt.GraphicsLjava.awt.print.PageFormatI),Added Methods
+java.method.added,No,org.knowm.xchart.style.RadarStyler.isSeriesFilled:(),Added Methods
+java.method.added,No,org.knowm.xchart.style.RadarStyler.setSeriesFilled:(Z),Added Methods
+java.method.added,No,org.knowm.xchart.style.Styler.getAnnotationsFontColor:(),Added Methods
+java.method.added,No,org.knowm.xchart.style.Styler.getAnnotationsRotation:(),Added Methods
+java.method.added,No,org.knowm.xchart.style.Styler.getCursorBackgroundColor:(),Added Methods
+java.method.added,No,org.knowm.xchart.style.Styler.getCursorColor:(),Added Methods
+java.method.added,No,org.knowm.xchart.style.Styler.getCursorFont:(),Added Methods
+java.method.added,No,org.knowm.xchart.style.Styler.getCursorFontColor:(),Added Methods
+java.method.added,No,org.knowm.xchart.style.Styler.getCursorSize:(),Added Methods
+java.method.added,No,org.knowm.xchart.style.Styler.getInfoPanelBackgroundColor:(),Added Methods
+java.method.added,No,org.knowm.xchart.style.Styler.getInfoPanelBorderColor:(),Added Methods
+java.method.added,No,org.knowm.xchart.style.Styler.getInfoPanelFont:(),Added Methods
+java.method.added,No,org.knowm.xchart.style.Styler.getInfoPanelPadding:(),Added Methods
+java.method.added,No,org.knowm.xchart.style.Styler.getInfoPanelPosition:(),Added Methods
+java.method.added,No,org.knowm.xchart.style.Styler.getShowWithinAreaPoint:(),Added Methods
+java.method.added,No,org.knowm.xchart.style.Styler.getYAxisLeftWidthHint:(),Added Methods
+java.method.added,No,org.knowm.xchart.style.Styler.isCursorEnabled:(),Added Methods
+java.method.added,No,org.knowm.xchart.style.Styler.isInfoPanelVisible:(),Added Methods
+java.method.added,No,org.knowm.xchart.style.Styler.setAnnotationsFontColor:(Ljava.awt.Color),Added Methods
+java.method.added,No,org.knowm.xchart.style.Styler.setAnnotationsRotation:(I),Added Methods
+java.method.added,No,org.knowm.xchart.style.Styler.setCursorBackgroundColor:(Ljava.awt.Color),Added Methods
+java.method.added,No,org.knowm.xchart.style.Styler.setCursorColor:(Ljava.awt.Color),Added Methods
+java.method.added,No,org.knowm.xchart.style.Styler.setCursorEnabled:(Z),Added Methods
+java.method.added,No,org.knowm.xchart.style.Styler.setCursorFont:(Ljava.awt.Font),Added Methods
+java.method.added,No,org.knowm.xchart.style.Styler.setCursorFontColor:(Ljava.awt.Color),Added Methods
+java.method.added,No,org.knowm.xchart.style.Styler.setCursorSize:(F),Added Methods
+java.method.added,No,org.knowm.xchart.style.Styler.setInfoPanelBackgroundColor:(Ljava.awt.Color),Added Methods
+java.method.added,No,org.knowm.xchart.style.Styler.setInfoPanelBorderColor:(Ljava.awt.Color),Added Methods
+java.method.added,No,org.knowm.xchart.style.Styler.setInfoPanelFont:(Ljava.awt.Font),Added Methods
+java.method.added,No,org.knowm.xchart.style.Styler.setInfoPanelPadding:(I),Added Methods
+java.method.added,No,org.knowm.xchart.style.Styler.setInfoPanelPosition:(Lorg.knowm.xchart.style.Styler$InfoPanelPosition),Added Methods
+java.method.added,No,org.knowm.xchart.style.Styler.setInfoPanelVisible:(Z),Added Methods
+java.method.added,No,org.knowm.xchart.style.Styler.setShowWithinAreaPoint:(Z),Added Methods
+java.method.added,No,org.knowm.xchart.style.Styler.setYAxisLeftWidthHint:(I),Added Methods
+java.method.added,No,org.knowm.xchart.SwingWrapper.isCentered:(Z),Added Methods
+java.method.added,No,org.knowm.xchart.SwingWrapper.setTitle:(Ljava.lang.String),Added Methods
+java.method.added,No,org.knowm.xchart.style.Theme.getAnnotationsFontColor:(),Added Methods
+java.method.added,No,org.knowm.xchart.style.Theme.getCursorBackgroundColor:(),Added Methods
+java.method.added,No,org.knowm.xchart.style.Theme.getCursorColor:(),Added Methods
+java.method.added,No,org.knowm.xchart.style.Theme.getCursorFont:(),Added Methods
+java.method.added,No,org.knowm.xchart.style.Theme.getCursorFontColor:(),Added Methods
+java.method.added,No,org.knowm.xchart.style.Theme.getCursorSize:(),Added Methods
+java.method.added,No,org.knowm.xchart.style.Theme.getInfoPanelBackgroundColor:(),Added Methods
+java.method.added,No,org.knowm.xchart.style.Theme.getInfoPanelBorderColor:(),Added Methods
+java.method.added,No,org.knowm.xchart.style.Theme.getInfoPanelFont:(),Added Methods
+java.method.added,No,org.knowm.xchart.style.Theme.getInfoPanelPadding:(),Added Methods
+java.method.added,No,org.knowm.xchart.style.Theme.getInfoPanelPosition:(),Added Methods
+java.method.added,No,org.knowm.xchart.style.Theme.isCursorEnabled:(),Added Methods
+java.method.added,No,org.knowm.xchart.style.Theme.isInfoPanelVisible:(),Added Methods
+java.method.added,No,org.knowm.xchart.VectorGraphicsEncoder.saveVectorGraphic:(Lorg.knowm.xchart.internal.chartpart.ChartLjava.io.OutputStreamLorg.knowm.xchart.VectorGraphicsEncoder$VectorGraphicsFormat),Added Methods
+java.method.added,No,org.knowm.xchart.XChartPanel.setPrintString:(Ljava.lang.String),Added Methods
+java.method.added,No,org.knowm.xchart.XYChart.filterXByIndex:(II),Added Methods
+java.method.added,No,org.knowm.xchart.XYChart.filterXByScreen:(II),Added Methods
+java.method.added,No,org.knowm.xchart.XYChart.resetFilter:(),Added Methods
+java.method.added,No,org.knowm.xchart.XYSeries.isSmooth:(),Added Methods
+java.method.added,No,org.knowm.xchart.XYSeries.setSmooth:(Z),Added Methods
+java.method.removed,High,org.knowm.xchart.CategoryChart.setCustomCategoryLabels:(Ljava.util.Map),Removed Methods
+java.method.removed,High,org.knowm.xchart.SwingWrapper.displayChart:(Ljava.lang.String),Removed Methods
+java.method.removed,High,org.knowm.xchart.SwingWrapper.displayChartMatrix:(Ljava.lang.String),Removed Methods
+java.method.addedToInterface,High,org.knowm.xchart.style.Theme::isCursorEnabled(),Method was added to an interface.
+java.method.addedToInterface,High,org.knowm.xchart.style.Theme::isInfoPanelVisible(),Method was added to an interface.
+java.method.addedToInterface,High,org.knowm.xchart.style.Theme::getCursorSize(),Method was added to an interface.
+java.method.addedToInterface,High,org.knowm.xchart.style.Theme::getInfoPanelPadding(),Method was added to an interface.
+java.method.addedToInterface,High,org.knowm.xchart.style.Theme::getAnnotationsFontColor(),Method was added to an interface.
+java.method.addedToInterface,High,org.knowm.xchart.style.Theme::getCursorBackgroundColor(),Method was added to an interface.
+java.method.addedToInterface,High,org.knowm.xchart.style.Theme::getCursorColor(),Method was added to an interface.
+java.method.addedToInterface,High,org.knowm.xchart.style.Theme::getCursorFontColor(),Method was added to an interface.
+java.method.addedToInterface,High,org.knowm.xchart.style.Theme::getInfoPanelBackgroundColor(),Method was added to an interface.
+java.method.addedToInterface,High,org.knowm.xchart.style.Theme::getInfoPanelBorderColor(),Method was added to an interface.
+java.method.addedToInterface,High,org.knowm.xchart.style.Theme::getCursorFont(),Method was added to an interface.
+java.method.addedToInterface,High,org.knowm.xchart.style.Theme::getInfoPanelFont(),Method was added to an interface.
+java.method.addedToInterface,High,org.knowm.xchart.style.Styler.InfoPanelPosition org.knowm.xchart.style.Theme::getInfoPanelPosition(),Method was added to an interface.
+java.method.visibilityReduced,High,"org.knowm.xchart.internal.chartpart.AxisPair<ST extends org.knowm.xchart.style.AxesChartStyler, S extends org.knowm.xchart.internal.series.AxesChartSeries>::getLeftYAxisBounds()",visibility reduced
+java.method.visibilityReduced,High,"org.knowm.xchart.internal.chartpart.AxisPair<ST extends org.knowm.xchart.style.AxesChartStyler, S extends org.knowm.xchart.internal.series.AxesChartSeries>::getRightYAxisBounds()",visibility reduced
+java.method.visibilityReduced,High,"org.knowm.xchart.internal.chartpart.Axis<ST, S> org.knowm.xchart.internal.chartpart.AxisPair<ST extends org.knowm.xchart.style.AxesChartStyler, S extends org.knowm.xchart.internal.series.AxesChartSeries>::getLeftMainYAxis()",visibility reduced
+java.method.visibilityReduced,High,"org.knowm.xchart.internal.chartpart.Axis<ST, S> org.knowm.xchart.internal.chartpart.AxisPair<ST extends org.knowm.xchart.style.AxesChartStyler, S extends org.knowm.xchart.internal.series.AxesChartSeries>::getRightMainYAxis()",visibility reduced

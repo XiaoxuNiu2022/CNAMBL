@@ -1,0 +1,14 @@
+Metrics,Severity,API,Description
+java.method.added,No,org.joda.time.DateTimeUtils.fromJulianDay:(D),Added Methods
+java.method.added,No,org.joda.time.DateTimeUtils.getDefaultTimeZoneNames:(),Added Methods
+java.method.added,No,org.joda.time.DateTimeUtils.setDefaultTimeZoneNames:(Ljava.util.Map),Added Methods
+java.method.added,No,org.joda.time.DateTimeUtils.toJulianDay:(J),Added Methods
+java.method.added,No,org.joda.time.DateTimeUtils.toJulianDayNumber:(J),Added Methods
+java.method.added,No,"org.joda.time.IllegalInstantException.""<init>"":(JLjava.lang.String)",Added Methods
+java.method.added,No,"org.joda.time.IllegalInstantException.""<init>"":(Ljava.lang.String)",Added Methods
+java.method.added,No,org.joda.time.IllegalInstantException.isIllegalInstant:(Ljava.lang.Throwable),Added Methods
+java.method.finalMethodAddedToNonFinalClass,Medium,org.joda.time.DateTimeUtils::toJulianDay(long),A final method has been added to an inheritable class.
+java.method.finalMethodAddedToNonFinalClass,Medium,org.joda.time.DateTimeZone> org.joda.time.DateTimeUtils::getDefaultTimeZoneNames(),A final method has been added to an inheritable class.
+java.method.finalMethodAddedToNonFinalClass,Medium,org.joda.time.DateTimeUtils::fromJulianDay(double),A final method has been added to an inheritable class.
+java.method.finalMethodAddedToNonFinalClass,Medium,org.joda.time.DateTimeUtils::toJulianDayNumber(long),A final method has been added to an inheritable class.
+java.method.finalMethodAddedToNonFinalClass,Medium,"org.joda.time.DateTimeUtils::setDefaultTimeZoneNames(java.util.Map<java.lang.String, org.joda.time.DateTimeZone>)",A final method has been added to an inheritable class.
